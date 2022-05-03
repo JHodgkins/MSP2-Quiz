@@ -5,7 +5,7 @@ Developer: James Hodgkins
 ## Table of contents
 1. [Overview](#overview)
 2. [Design brief](#design-brief)
-
+3. [Research](#research)
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -23,4 +23,4 @@ Plan, design and build an interactive website application for children and young
 The project will provide a safe and fun learning experience for children to learn at their own pace no matter any learning difficulties or disabilities, with added functionality to show their progress with others through the application.  
 
 ## Research
-Please view the [research](docs/research/research.md) document for details of user research carried out through planning phase.  
+Please view the [research](docs/research/research.md) document for details of user research carried out through the planning phase.  
