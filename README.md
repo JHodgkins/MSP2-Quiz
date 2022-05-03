@@ -21,3 +21,6 @@ The application adds a gamifying aspect which encourages users to continue answe
 ## Design brief
 Plan, design and build an interactive website application for children and young adults which provides a game-based approach to learning new general knowledge, encourages curiosity about the world we live in, which will help build a community of quizzers and promote education learning through a fun interactive game application.  
 The project will provide a safe and fun learning experience for children to learn at their own pace no matter any learning difficulties or disabilities, with added functionality to show their progress with others through the application.  
+
+## Research
+Please view the [research](docs/research/research.md) document for details of user research carried out through planning phase.  
