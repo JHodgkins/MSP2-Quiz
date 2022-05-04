@@ -16,5 +16,25 @@ The applications reviewed also seemed to cover a variety of ages 4 to 6, 6 to 8 
 
 ## User research
 I reached out to the circle of parents who my child has contact with as their children also have other traits such as ADHD, Global development delay, learning difficulties alongside friends whose children are at their expected educational level and I asked them for their thoughts on the above research.  
+Responses have been condensed for consistency.  
+
+### Initial questions asked  
+Question: **Do you allow your child to use your device to play games?**  
+**User:** _‘Yes, but I have to watch my child sometimes as some have popups which interrupt the game.’_  
+**User:** _‘Not often but occasionally, it is me that worries what is going to be shown on the screen, always seem to be blowing things up.’_  
+
+Question: **Does your child play any quiz-based games?**  
+**User:** _‘Sort of, there was one which was good at first and then became too hard, so they gave up.’_  
+**User:** _‘Now and again but a lot seem to either be too easy or too hard for my child.’_  
+
+Question: **Do you purchase games for them to play?**  
+**User:** _‘No as they always seem to find another one as soon as they get bored, so we stick to free unless it is something everyone can play’_  
+**User:** _‘Yes and no, I always find the free games have in-app purchases and I do not like my child having access to my bank details to buy something.’_  
+
+Question: **Does you know what data is collected in some apps, websites?**  
+**User:** _‘I stay away from any app that needs data just to play a game, why would they need it’_  
+**User:** _‘I did not even realise they did, why would a game need my personal information.’_  
+
+Focusing on the user interface and available features, people were asked:  
 
 [Back to Repository](https://github.com/JHodgkins/MSP2-Quiz) 
