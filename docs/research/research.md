@@ -51,5 +51,12 @@ Question: **Is a game better for you as a parent if it offers more in game featu
 **User** _‘No, I prefer games which I know do what they say on the tin, I know my child is safe to use it then as I know what to expect’_  
 **User** _‘They are nice to have, and it seems you are getting a lot in a package but the number of times even I am confused how we got to a particular screen is more than I want to remember.’_  
 
+## Summary  
+The research provided some interesting points both against and for paid, against free offerings, however regarding the target audience, it appears that knowing what an app is offering outweighs the need for complicated graphical interfaces and rich feature offerings which at times seemed confusing to adults.  
+The knowledge surrounding data is also an area which continues to be a concern and a consideration for most.  
+Looking at the proposed application, research showed that other offerings can indeed offer more questions and features for example, but the projects strengths are that it can offer a more positive and pleasing offering which meets the business and target audience goals and aligns with feedback.  
 
+## Conclusion
+The project meets its goals and fills a small gap within the market offerings by providing an application which will provide a useful resource to parents of the target audience, provide a simple to use accessible application, provide a positive experience throughout which can be used independently by children or supportively with parents and align with the business goals to provide a platform to aid in the education of children with varying learning difficulties through play.  
+  
 [Back to Repository](https://github.com/JHodgkins/MSP2-Quiz) 
