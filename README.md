@@ -5,7 +5,9 @@ Developer: James Hodgkins
 ## Table of contents
 1. [Overview](#overview)
 2. [Design brief](#design-brief)
-3. [Research](#research)
+3. [Research](#research)  
+4. [Goals and Target audience](#goals-and-target-audience)  
+    4.1 [Project goals](#project-goals)  
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -24,3 +26,10 @@ The project will provide a safe and fun learning experience for children to lear
 
 ## Research
 Please view the [research](docs/research/research.md) document for details of user research carried out through the planning phase.  
+
+## Goals and Target audience  
+### Project goals  
+- The project will provide a platform for those interested in playing quizzes a place to visit frequently where they can test their knowledge and learn new knowledge and share their accomplishments and progress with others.  
+- The project will promote the QuizBox application to parents and young adults as a form of fun interactive learning material.  
+- The project will help build a community of quizzers looking to challenge each other through the streaks system.  
+
