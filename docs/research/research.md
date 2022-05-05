@@ -37,4 +37,19 @@ Question: **Does you know what data is collected in some apps, websites?**
 
 Focusing on the user interface and available features, people were asked:  
 
+### Additional questions asked  
+
+Question: **Does it make a difference to your child if the interface is simple or complicated with lots of available options?**  
+**User** _‘Simple is best for my child, they like to know when they press something that that is what will appear on screen.’_  
+**User** _‘My child can understand complex features and what they mean but a being able to easily navigate through the options is very important.’_  
+
+Question: **Do animations make any difference in the games your child plays?**  
+**User:** _‘Yes, fast popups coming from here there and everywhere really excites my child and can lead to me having to stop the game’_  
+**User:** _‘Yes, my child finds it really hard to keep up and read them, sometimes the messages have really small text and long sentences which just get ignored or cause frustration as they disappear after a second or two.’_  
+
+Question: **Is a game better for you as a parent if it offers more in game features?**  
+**User** _‘No, I prefer games which I know do what they say on the tin, I know my child is safe to use it then as I know what to expect’_  
+**User** _‘They are nice to have, and it seems you are getting a lot in a package but the number of times even I am confused how we got to a particular screen is more than I want to remember.’_  
+
+
 [Back to Repository](https://github.com/JHodgkins/MSP2-Quiz) 
