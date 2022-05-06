@@ -14,7 +14,8 @@ Developer: James Hodgkins
 5. [User experiance (UX)](#user-experiance-ux)  
     [User stories](#user-stories)  
     5.1 [First time user](#first-time-user)  
-    
+    5.2 [Returning user](#returning-user)  
+
 
 
 ## Overview
@@ -78,6 +79,13 @@ Keyboard and screen reader navigation has also been considered and all elements 
 - As a first-time user, I want to get a feel of what to expect when I play the game.  
 - As a first-time user, I want to be able to ask a question about the application.  
 
+### Returning user  
+- As a returning user, I want to see my previous streaks.
+- As a returning user, I want to know if there have been any new questions added.
+- As a returning user, I want to be able to invite a friend so we can challenge each other.
+- As a returning user, I want to be able to play the game without visiting the website.
+- As a returning user, I want to clear my streaks leader board and start over.
+- As a returning user, I want to receive a new set of questions to answer.
 
 
 
