@@ -8,6 +8,10 @@ Developer: James Hodgkins
 3. [Research](#research)  
 4. [Goals and Target audience](#goals-and-target-audience)  
     4.1 [Project goals](#project-goals)  
+    4.2 [User goals](#user-goals)  
+    4.3 [Site owners goals](#site-owners-goals)  
+    4.4 [Target audience](#target-audience)  
+
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -47,6 +51,14 @@ The site owner would also like to achieve additional goals which include:
 - Provide an application that can be easily used by parents and children cooperatively as an extra form of learning material.  
 The platform uses child friendly questions which provides a place parents can learn to trust as a safe resource for their child to learn within.
 - Provide a way for parents to find out when new questions have been added to the quiz and request new categories.  
+
+### Target audience  
+- Children aged 10 to 16 years of age  
+- Those with learning difficulties or disabilities who learn easier through play and interaction  
+- Parents of the children’s target age range looking for an additional resource they can use to help increase their child’s knowledge.  
+- Family who plays the game as a group together as a form of entertainment.
+- Schools looking for a resource that tests general knowledge.  
+
 
 
 
