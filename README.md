@@ -12,6 +12,9 @@ Developer: James Hodgkins
     4.3 [Site owners goals](#site-owners-goals)  
     4.4 [Target audience](#target-audience)  
 5. [User experiance (UX)](#user-experiance-ux)  
+    [User stories](#user-stories)  
+    5.1 [First time user](#first-time-user)  
+    
 
 
 ## Overview
@@ -65,6 +68,15 @@ During project planning, it was decided to set an aim that all User journeys sho
 As the application is aimed at a younger audience, click, tap targets have been increased to ensure no barriers are present or experienced during playthrough.  
 Keyboard and screen reader navigation has also been considered and all elements can be reached using a keyboard to ensure the application is as accessible as possible to all users of the application.  
 
+### User stories  
+#### First time user  
+- As a first-time user, I want to understand what the applications purpose is so that I can decide if it interests me.  
+- As a first-time user, I want to be able to easily navigate to the game application.  
+- As a first-time user, I want to find out more about QuizBox.  
+- As a first-time user, I want to find out how to play the game.  
+- As a first-time user, I want to find out how to install the application to my device.  
+- As a first-time user, I want to get a feel of what to expect when I play the game.  
+- As a first-time user, I want to be able to ask a question about the application.  
 
 
 
