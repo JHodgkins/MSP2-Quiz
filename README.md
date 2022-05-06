@@ -25,7 +25,7 @@ Plan, design and build an interactive website application for children and young
 The project will provide a safe and fun learning experience for children to learn at their own pace no matter any learning difficulties or disabilities, with added functionality to show their progress with others through the application.  
 
 ## Research
-Please view the [research](docs/research/research.md) document for details of user research carried out through the planning phase.  
+Please view the [research](docs/research/RESEARCH.md) document for details of user research carried out through the planning phase.  
 
 ## Goals and Target audience  
 ### Project goals  
