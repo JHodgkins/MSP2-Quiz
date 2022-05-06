@@ -11,6 +11,7 @@ Developer: James Hodgkins
     4.2 [User goals](#user-goals)  
     4.3 [Site owners goals](#site-owners-goals)  
     4.4 [Target audience](#target-audience)  
+5. [User experiance (UX)](#user-experiance-ux)  
 
 
 ## Overview
@@ -58,6 +59,11 @@ The platform uses child friendly questions which provides a place parents can le
 - Parents of the children’s target age range looking for an additional resource they can use to help increase their child’s knowledge.  
 - Family who plays the game as a group together as a form of entertainment.
 - Schools looking for a resource that tests general knowledge.  
+
+## User experiance (UX)  
+During project planning, it was decided to set an aim that all User journeys should aim to be completed in 3 clicks or less to provide an overall good user experience and provide a positive feeling when navigating and interacting with the application and website.  
+As the application is aimed at a younger audience, click, tap targets have been increased to ensure no barriers are present or experienced during playthrough.  
+Keyboard and screen reader navigation has also been considered and all elements can be reached using a keyboard to ensure the application is as accessible as possible to all users of the application.  
 
 
 
