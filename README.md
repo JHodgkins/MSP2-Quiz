@@ -15,8 +15,8 @@ Developer: James Hodgkins
     [User stories](#user-stories)  
     5.1 [First time user](#first-time-user)  
     5.2 [Returning user](#returning-user)  
-
-
+    5.3 [Site owner](#site-owner)  
+    
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -87,5 +87,11 @@ Keyboard and screen reader navigation has also been considered and all elements 
 - As a returning user, I want to clear my streaks leader board and start over.
 - As a returning user, I want to receive a new set of questions to answer.
 
+### Site owner  
+- As the site owner, I want visitors to find information about QuizBox and its purpose.
+- As the site owner, I want visitors to understand what the game is about and how to use it.
+- As the site owner, I want visitors to be able to invite their friends and family to challenge each other.
+- As the site owner, I want the site visitors to be able to contact QuizBox and request new categories or questions.
+- As the site owner, I want visitors to find out how to install the application to their own devices.  
 
 
