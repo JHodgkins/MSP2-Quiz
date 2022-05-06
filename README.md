@@ -33,3 +33,21 @@ Please view the [research](docs/research/research.md) document for details of us
 - The project will promote the QuizBox application to parents and young adults as a form of fun interactive learning material.  
 - The project will help build a community of quizzers looking to challenge each other through the streaks system.  
 
+### User goals  
+- Find information about what QuizBox is  
+- Find information about how to play QuizBox  
+- Quickly and easily start playing the quiz  
+- Find information about how other people have done taking the quiz  
+- Find information about playing the game offline and install to a device.  
+- Find information about when the application has new content.  
+
+### Site owners goals  
+The QuizBox site owner is interested in promoting the apps approach, learning through play and its possible benefits to young adults who struggle to learn by standard means.  
+The site owner would also like to achieve additional goals which include:  
+- Provide an application that can be easily used by parents and children cooperatively as an extra form of learning material.  
+The platform uses child friendly questions which provides a place parents can learn to trust as a safe resource for their child to learn within.
+- Provide a way for parents to find out when new questions have been added to the quiz and request new categories.  
+
+
+
+
