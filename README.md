@@ -16,7 +16,9 @@ Developer: James Hodgkins
     5.1 [First time user](#first-time-user)  
     5.2 [Returning user](#returning-user)  
     5.3 [Site owner](#site-owner)  
-    
+6. [Design](#design)  
+
+    [Wireframes](#wireframes)  
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -94,4 +96,7 @@ Keyboard and screen reader navigation has also been considered and all elements 
 - As the site owner, I want the site visitors to be able to contact QuizBox and request new categories or questions.
 - As the site owner, I want visitors to find out how to install the application to their own devices.  
 
+## Design  
+
+### Wireframes  
 
