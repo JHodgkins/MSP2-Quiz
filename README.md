@@ -140,3 +140,44 @@ The site has been developed using a mobile first approach.
 
 <details><summary>Desktop</summary>
 <img src="docs/wireframes/desktop/desktop-game-question.png" alt="wireframe screenshot of QuizBox game question layout on desktop"></details>  
+
+#### Streak banner layout
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-streak-banner.png" alt="wireframe screenshot of QuizBox game streak banner layout on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-streak-banner.png" alt="wireframe screenshot of QuizBox game streak banner layout on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-streak-banner.png" alt="wireframe screenshot of QuizBox game streak banner layout on desktop"></details>  
+
+#### Rules page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-rules-page.png" alt="wireframe screenshot of QuizBox game rules page on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-rules-page.png" alt="wireframe screenshot of QuizBox game rules page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-rules-page.png" alt="wireframe screenshot of QuizBox game rules page on desktop"></details>  
+
+#### Game over page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-over-page.png" alt="wireframe screenshot of QuizBox game over page on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-over-page.png" alt="wireframe screenshot of QuizBox game over page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-over-page.png" alt="wireframe screenshot of QuizBox game over page on desktop"></details>  
+
+#### Streak leader board page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-streak-leader-board.png" alt="wireframe screenshot of QuizBox game streak leader board page on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-streak-leader-board.png" alt="wireframe screenshot of QuizBox game streak leader board page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-streak-leader-board.png" alt="wireframe screenshot of QuizBox game streak leader board page on desktop"></details>  
+
