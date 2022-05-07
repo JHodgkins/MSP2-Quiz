@@ -119,6 +119,15 @@ The landing page and application follow a universal approach which comprises of 
 To the right is the applications main navigation, which is responsive, full text links remain right aligned until tablet size and below where it will collapse to a right aligned Hamburger menu (toggle button).  
 On devices tablet and below the user will be able to expand/collapse this menu using the menu toggle button.  
 
+#### Main content area
+The main content area is used to display content dynamically dependant on the user’s choice of action, when arriving on the landing page, this area is used to hold 3 large sections each with a simple to understand description and single call to action button.  
+The areas are top section which briefly outlines the game with a call-to-action button inviting users to start the game followed by a middle section which contains a simple form inviting visitors to invite friends to the website and play QuizBox, the third section contains links to a how to guide outlining various actions such as installing to their device for a more immersive experience.  
+Selecting to play now will load the game area which is detailed below.  
+
+This approach was used to ensure that the user felt comfortable within the website and application, encompassing content within the header and footer allows the user to become familiar with the site navigation and always know how to navigate away or too their chosen area.  
+
+
+
 ### Wireframes
 Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
 The application was developed using a mobile first approach.  
