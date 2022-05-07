@@ -99,4 +99,44 @@ Keyboard and screen reader navigation has also been considered and all elements 
 ## Design  
 
 ### Wireframes  
+Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
+The site has been developed using a mobile first approach.  
+#### Landing page  
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-landing-page.png" alt="wireframe screenshot of QuizBox landing page on mobile"></details>
 
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-landing-page.png" alt="wireframe screenshot of QuizBox landing page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-landing-page.png" alt="wireframe screenshot of QuizBox landing page on desktop"></details>  
+  
+#### How to page  
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-how-to-page.png" alt="wireframe screenshot of QuizBox how to page on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-how-to-page.png" alt="wireframe screenshot of QuizBox how to page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-how-to-page.png" alt="wireframe screenshot of QuizBox how to page on desktop "></details>  
+
+#### Game start page
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-start-page.png" alt="wireframe screenshot of QuizBox game start page on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-start-page.png" alt="wireframe screenshot of QuizBox game start page on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-start-page.png" alt="wireframe screenshot of QuizBox game start page on desktop"></details>  
+
+#### Game question layout
+<details><summary>Mobile</summary>
+<img src="docs/wireframes/mobile/mobile-game-question.png" alt="wireframe screenshot of QuizBox game question layout on mobile"></details>
+
+<details><summary>Tablet</summary>
+<img src="docs/wireframes/tablet/tablet-game-question.png" alt="wireframe screenshot of QuizBox game question layout on tablet"></details>
+
+<details><summary>Desktop</summary>
+<img src="docs/wireframes/desktop/desktop-game-question.png" alt="wireframe screenshot of QuizBox game question layout on desktop"></details>  
