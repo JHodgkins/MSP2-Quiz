@@ -27,7 +27,7 @@ Developer: James Hodgkins
     - [Rules page](#rules-page)  
     - [Game over page](#game-over-page)  
     - [Streak leader board page](#streak-leader-board-page)  
-    
+
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -106,10 +106,13 @@ Keyboard and screen reader navigation has also been considered and all elements 
 - As the site owner, I want visitors to find out how to install the application to their own devices.  
 
 ## Design  
+The application was designed to be clean, clear and easily understood by its target audience, header and footer sections persist throughout the landing page and game application page to ensure navigation is kept consistent as to provide easy navigation and a pleasant user experience (UX).    
+The application uses primary colours to reflect a bright and colourful, playful feeling.  
+As a person with a visual impairment, the website has been designed with screen magnification and screen readers in mind.  
 
 ### Wireframes  
 Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
-The site has been developed using a mobile first approach.  
+The application was developed using a mobile first approach.  
 #### Landing page  
 <details><summary>Mobile</summary>
 <img src="docs/wireframes/mobile/mobile-landing-page.png" alt="wireframe screenshot of QuizBox landing page on mobile"></details>
