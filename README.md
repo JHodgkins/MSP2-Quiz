@@ -18,6 +18,10 @@ Developer: James Hodgkins
     5.3 [Site owner](#site-owner)  
 6. [Design](#design)  
     6.1 [Structure of pages](#structure-of-pages)  
+    - [Header](#header)  
+    - [Main content area](#main-content-area)  
+    - [Game content area](#game-content-area)  
+    - [Footer section](#footer-section)  
 
     6.2 [Wireframes](#wireframes)  
     - [Landing page](#landing-page)  
@@ -126,7 +130,14 @@ Selecting to play now will load the game area which is detailed below.
 
 This approach was used to ensure that the user felt comfortable within the website and application, encompassing content within the header and footer allows the user to become familiar with the site navigation and always know how to navigate away or too their chosen area.  
 
+#### Game content area
+After a use has selected to play the game, the main area is filled with a game area, all game content required to take the quiz and proceed through all screens is presented to the user centrally within this area to ensure consistency, reassure a user of what to do and maintain a clean, clear user interface.  
 
+#### Footer section
+The footer section was designed to be useful and useable; the footer divided into two half page sections at tablet and above screen sizes, both parts provide options for the user to interact with dependant on if they are on the landing page or within the game application.  
+The left side contains a simple navigational link back to the game landing page, if within the application and on the landing page it will shows QuizBox social media links.  
+The reasoning behind this is to provide a way out for anyone playing the game which is clear for children etc., but not force social media on those playing who may not have access. This provides an effective way to offer online features but not force them.  
+The right side displays a copyright notice when on the landing page and when within the game application displays a help button which can be activated which will display an overlay giving the user options such as how to play, end game and restart.  
 
 ### Wireframes
 Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
