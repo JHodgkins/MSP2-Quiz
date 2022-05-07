@@ -17,8 +17,9 @@ Developer: James Hodgkins
     5.2 [Returning user](#returning-user)  
     5.3 [Site owner](#site-owner)  
 6. [Design](#design)  
+    6.1 [Structure of pages](#structure-of-pages)  
 
-    [Wireframes](#wireframes)  
+    6.2 [Wireframes](#wireframes)  
     - [Landing page](#landing-page)  
     - [How to page](#how-to-page)  
     - [Game start page](#game-start-page)  
@@ -110,7 +111,15 @@ The application was designed to be clean, clear and easily understood by its tar
 The application uses primary colours to reflect a bright and colourful, playful feeling.  
 As a person with a visual impairment, the website has been designed with screen magnification and screen readers in mind.  
 
-### Wireframes  
+### Structure of pages  
+The landing page website and application use a mobile first approach with the landing page having a maximum width of 1140px which centre aligns at higher resolutions and the application page following suit with a game area of the same width constraints to maintain the user’s focus, attention and sight lines.  
+
+#### Header  
+The landing page and application follow a universal approach which comprises of a left aligned logo for Mobile through to Desktop.  
+To the right is the applications main navigation, which is responsive, full text links remain right aligned until tablet size and below where it will collapse to a right aligned Hamburger menu (toggle button).  
+On devices tablet and below the user will be able to expand/collapse this menu using the menu toggle button.  
+
+### Wireframes
 Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
 The application was developed using a mobile first approach.  
 #### Landing page  
