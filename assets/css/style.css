@@ -1,0 +1,27 @@
+/* Import google fonts Electrolize and Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@400;500;700&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylesheet Index
+1. colour scheme values
+2. Base body, headings, paragraph and link valuess
+
+/* 1. color scheme values 
+white: #ffffff
+black: #000000
+*/
+
+/* Base body, headings, paragraph and link values */
+body, p, a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Electrolize', sans-serif;
+}
