@@ -1,12 +1,6 @@
 /* Import google fonts Electrolize and Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@400;500;700&display=swap');
 
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Stylesheet Index
 1. colour scheme values
 2. Base body, headings, paragraph and link valuess
@@ -87,9 +81,44 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
 }
 
+/* section 2 */
 
+/* invite friend form, code tutorial NDN Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/:valid */
 
+input + span {
+  }
+  
+  input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 5px;
+  }
+  
+  input:invalid {
+    border: 2px solid var(--red);
+  }
 
+  input:valid {
+    border: 2px solid var(--green);
+  }
+  
+  input:invalid + span::before {
+    content: '✖';
+    color: var(--red);
+  }
+  
+  input:valid + span::before {
+    content: '✓';
+    color: var(--green);
+  }
+
+  /* icon invite section */
+
+ .invite-icon {
+      font-size: 15rem;
+      width: 100%;
+      margin: 25% auto;
+  }
 
 
 

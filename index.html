@@ -10,6 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Load Font Awesome icon kit for icons -->
+  <script src="https://kit.fontawesome.com/1a728906ad.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -45,6 +47,7 @@
         <div class="container bg-light pad-3">
           <div class="row py-3">
             <div class="col-md-7 h-100">
+              <i class="fas fa-users card-icons-main text-center text-lg-center" aria-hidden="true"></i>
               <h1>Build your Knowledge</h1>
               <p>Build your knowledge by answering 15 questions a day, where will your knowledge take you...</p>
               <h2>Build your streaks</h2>
@@ -58,6 +61,32 @@
           </div>
         </div>
       </section>
+
+      <section class="row invite-friend-section">
+        <div class="container bg-light pad-3">
+          <div class="row py-3">
+            <div class="col-md-7 h-100">
+              <h2>Challenge your friends <br>Share your scores</h2>
+              <p>Invite your friends to play along and share your streaks every day, become a quizzer master </p>
+              <form onsubmit="return sendMail(this);" action="post" id="invite_form">
+                <div class="form-floating">
+                  <input type="text" class="form-control" name="friendsname" id="friemdsname" placeholder="Friends name" required><span></span>
+                  <label for="friend-name">Name</label>
+                </div><br>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" name="friendsemail" id="friendsemail" placeholder="friendsname@example.com" required><span></span>
+                  <label for="friend-email">Email address</label>
+                </div>
+                <button type="submit" id="inviteButton" class="btn btn-outline-dark">Send invite</button>
+              </form>
+            </div>
+            <div class="col-md-5 h-100">
+              <i class="fas fa-paper-plane invite-icon  text-center text-lg-center py-2 card-icons-main" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   </main>
 
@@ -71,6 +100,17 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
   <script src="assets/js/script.js"></script>
+  <!-- load emailJS scrip -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+  <script type="text/javascript">
+    (function(){
+       emailjs.init("j5LykOQnyGNc9mNb5");
+    })();
+     </script>
+     <script src="assets/js/invite.js"></script>
+     
 </body>
 
 </html>
