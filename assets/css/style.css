@@ -11,10 +11,11 @@
 1. colour scheme values
 2. Base body, headings, paragraph and link valuess
 
-/* 1. color scheme values 
-white: #ffffff
-black: #000000
-*/
+/* 1. color scheme values */
+:root { 
+--white: #ffffff;
+--black: #000000;
+}
 
 /* Base body, headings, paragraph and link values */
 body, p, a {
@@ -24,4 +25,15 @@ body, p, a {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Electrolize', sans-serif;
+}
+
+/* header section */
+
+.header-wrapper {
+    border-bottom: 1px solid black;
+}
+.navbar-brand {
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
 }
