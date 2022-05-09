@@ -10,14 +10,24 @@
 /* Stylesheet Index
 1. colour scheme values
 2. Base body, headings, paragraph and link valuess
+3. utility classes
+4. Header section
+5. Landing page
+
+Media queries
 
 /* 1. color scheme values */
 :root { 
 --white: #ffffff;
 --black: #000000;
+--blue: #1B365D; /*prussian blue */
+--red: #DA344B; /* rusty red */
+--yellow: #FFC845; /* sunglow */
+--green: #58804D; /* fern green */
+--purple: #AA35FD; /* electric purple */
 }
 
-/* Base body, headings, paragraph and link values */
+/* 2. Base body, headings, paragraph and link values */
 body, p, a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125rem;
@@ -27,7 +37,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Electrolize', sans-serif;
 }
 
-/* header section */
+/* 3. utility classes */
+.pad-3 {
+    padding: 3rem 3rem 0 3rem;
+}
+
+/* 4. header section */
 
 .header-wrapper {
     border-bottom: 1px solid black;
@@ -36,4 +51,60 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Electrolize', sans-serif;
     font-weight: 600;
     font-size: 2rem;
+}
+.play-game-small {
+    background-color: var(--white);
+    outline: 2px solid var(--purple);
+}
+.play-game-small:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+/* 5. Landing page sections */
+
+/* section 1 */
+.intro-section h1, .intro-section h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+}
+.intro-section p{
+    text-align: center;
+}
+.play-game {
+    display: block;
+    margin: 100px auto;
+    width: 50%;
+    background-color: var(--white);
+    outline: 2px solid var(--purple);
+}
+.play-game:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+.robot {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+/* media queries */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .intro-section h1, .intro-section h2, .intro-section p {
+        text-align: left;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+  }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }
