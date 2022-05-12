@@ -121,6 +121,15 @@ input + span {
   }
 
 
+  /* footer */
+  footer .home-footer {
+      height: 100px;
+  }
+
+  .footer-wrapper {
+      background-color: var(--white);
+      color: var(--black);
+  }
 
 /* media queries */
 /* Medium devices (tablets, 768px and up) */
