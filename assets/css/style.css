@@ -120,6 +120,12 @@ input + span {
       margin: 25% auto;
   }
 
+  /* Game landing page */
+
+  .body-wrapper {
+      background-color: var(--yellow);
+  }
+
 
   /* footer */
   footer .home-footer {
