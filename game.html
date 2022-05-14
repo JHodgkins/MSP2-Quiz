@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play QuizBox | Learning through play</title>
+  <meta name="description" content="Interactive general knowledge quiz, helping to build knowledge.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Load Font Awesome icon kit for icons -->
+  <script src="https://kit.fontawesome.com/1a728906ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">QuizBox</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Menu
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">leaderboard</a>
+            </li>
+          </ul>
+          <button class="btn play-game-small" type="submit">Play QuizBox</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-wrapper vh-100" style="background-color: darkorange;">
+    <div class="container h-100">
+      <section class="row intro-section">
+        <div class="container bg-light pad-3 d-flex align-items-center justify-content-center ">
+          <div class="row py-3">
+            <div class="col-md-7 h-100">
+              <i class="fas fa-users card-icons-main text-center text-lg-center" aria-hidden="true"></i>
+              <h1>Build your Knowledge</h1>
+              <p>Build your knowledge by answering 15 questions a day, where will your knowledge take you...</p>
+              <h2>Build your streaks</h2>
+              <p>Build up correct answes to earn streak points and unlock awards.</p>
+              <button class="btn btn-lg play-game" type="button">Play QuizBox</button>
+            </div>
+            <div class="col-md-5 h-100">
+              <img class="robot" src="assets/images/happy-robot.png"
+                alt="cheerful cartoon image of a robot waving">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer-wrapper fixed-bottom" style="background-color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">social links</div>
+        <div class="col-md-6">&copy; 2022 QuizBox, educational project</div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Load Bootstrap v5 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="assets/js/script.js"></script>
+  <!-- load emailJS scrip -->
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+  <script type="text/javascript">
+    (function(){
+       emailjs.init("j5LykOQnyGNc9mNb5");
+    })();
+     </script>
+     <script src="assets/js/invite.js"></script>
+     
+</body>
+
+</html>
