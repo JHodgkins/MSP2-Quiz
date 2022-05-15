@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3rem 3rem 0 3rem;
 }
 
+.cover-container {
+    max-width: 52em;
+}
+
 /* 4. header section */
 
 .header-wrapper {
@@ -68,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .play-game {
     display: block;
-    margin: 100px auto;
+    /* margin: 100px auto; */
     width: 50%;
     background-color: var(--white);
     outline: 2px solid var(--purple);
@@ -125,6 +129,36 @@ input + span {
   .body-wrapper {
       background-color: var(--yellow);
   }
+
+  /* Game questions screen */
+
+  .choice-container {
+    display: flex;
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86,185,235,0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: orange;
+    color: white;
+    margin-bottom: 0;
+ }
+
+ .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+    border: none;
+}
 
 
   /* footer */
