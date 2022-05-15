@@ -1,127 +1,142 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play QuizBox | Learning through play</title>
-    <meta name="description" content="Interactive general knowledge quiz, helping to build knowledge.">
-    <!-- load bootstrap css v5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play QuizBox | Learning through play</title>
+  <meta name="description" content="Interactive general knowledge quiz, helping to build knowledge.">
+  <!-- load bootstrap css v5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Load custom css stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Load custom css stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body class="d-flex h-100 text-center body-wrapper">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-        <header class="mb-auto">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-              <div class="container">
-                <a class="navbar-brand" href="index.html">QuizBox</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">Menu
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="rules.html">rules</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="leaderboard.html">leaderboard</a>
-                    </li>
-                  </ul>
-                  <a href="game.html" class="btn play-game-small">Play QuizBox</a>
-                </div>
+    <header class="mb-auto">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">QuizBox</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">Menu
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rules.html">rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="leaderboard.html">leaderboard</a>
+              </li>
+            </ul>
+            <a href="game.html" class="btn play-game-small">Play QuizBox</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="px-3 bg-light text-datk">
+      <div class="container">
+        <section class="row intro-section" id="intro" style="display:block;">
+          <div class="container bg-light d-flex ">
+            <div class="row py-3">
+              <div class="col-md-7">
+                <h1>Build your Knowledge</h1>
+                <p>Answer 15 multiple choice questions and learn new things along the way.
+                </p>
+                <h2>Build your streaks</h2>
+                <p>Build up your correct answes to earn streaks, how good are you?</p>
+                <button class="btn btn-lg play-game" id="start_game" type="button">Play QuizBox</button>
               </div>
-            </nav>
-        </header>
-
-        <main class="px-3 bg-light text-datk">
-            <div class="container">
-                <section class="row intro-section" id="intro" style="display:block;">
-                  <div class="container bg-light d-flex ">
-                    <div class="row py-3">
-                      <div class="col-md-7">
-                        <h1>Build your Knowledge</h1>
-                        <p>Answer 15 multiple choice questions and learn new things along the way.
-                        </p>
-                        <h2>Build your streaks</h2>
-                        <p>Build up your correct answes to earn streaks, how good are you?</p>
-                        <button class="btn btn-lg play-game" id="start_game" type="button">Play QuizBox</button>
-                      </div>
-                      <div class="col-md-5">
-                        <img class="robot" src="assets/images/happy-robot.png"
-                          alt="Cheerful cartoon image of a robot waving" style="max-width: 100%;">
-                      </div>
-                    </div>
-                  </div>
-                </section><!--end intro section-->
-                <section class="row game-section" id="gameLoad" style="display:none;">
-                  <div class="container bg-light d-flex ">
-                    <div class="row py-3">
-                      <div class="col-md-12">
-                        <h2 id="question"></h2>
-                        <div id="choices">
-                          <div class="choice-container">
-                              <p class="choice-prefix">A</p>
-                              <button class="choice-text" id="A" data-number="1" onclick="checkSelectedAnswer('A')">Choice 1</button>
-                          </div>
-                          <div class="choice-container">
-                              <p class="choice-prefix">B</p>
-                              <button class="choice-text" id="B" data-number="2"onclick="checkSelectedAnswer('B')">Choice 2</button>
-                          </div>
-                          <div class="choice-container">
-                              <p class="choice-prefix">C</p>
-                              <div class="choice-text" id="C" onclick="checkSelectedAnswer('C')">Choice 3</div>
-                          </div>
-                          <div class="choice-container">
-                              <p class="choice-prefix">D</p>
-                              <button class="choice-text" id="D" data-number="4" onclick="checkSelectedAnswer('D')">Choice 4</button>
-                          </div>
-                      </div><!-- end choices-->
-                      </div>
-                      
-                    </div>
-                  </div>
-                </section><!--end game load section-->
-                <section class="row game-end-section" id="gameEnd" style="display:none;">
-                  <div class="container bg-light d-flex ">
-                    <div class="row py-3">
-                      <div class="col-md-12">
-                        
-                        content game end content logic
-                      </div>
-                      
-                    </div>
-                  </div>
-                </section><!--end game load section-->
+              <div class="col-md-5">
+                <img class="robot" src="assets/images/happy-robot.png" alt="Cheerful cartoon image of a robot waving"
+                  style="max-width: 100%;">
               </div>
-        </main>
-
-        <footer class="mt-auto">
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-6">social links</div>
-                  <div class="col-md-6">&copy; 2022 QuizBox, educational project</div>
-                </div>
+            </div>
+          </div>
+        </section>
+        <!--end intro section-->
+        <section class="row game-section" id="gameLoad" style="display:none;">
+          <div class="container bg-light d-flex ">
+            <div class="row py-3">
+              <div class="col-md-12">
+                <h2 id="question"></h2>
+                <div id="choices">
+                  <div class="choice-container">
+                    <p class="choice-prefix">A</p>
+                    <button class="choice-text" id="A" data-number="1" onclick="checkSelectedAnswer('A')">Choice
+                      1</button>
+                  </div>
+                  <div class="choice-container">
+                    <p class="choice-prefix">B</p>
+                    <button class="choice-text" id="B" data-number="2" onclick="checkSelectedAnswer('B')">Choice
+                      2</button>
+                  </div>
+                  <div class="choice-container">
+                    <p class="choice-prefix">C</p>
+                    <div class="choice-text" id="C" onclick="checkSelectedAnswer('C')">Choice 3</div>
+                  </div>
+                  <div class="choice-container">
+                    <p class="choice-prefix">D</p>
+                    <button class="choice-text" id="D" data-number="4" onclick="checkSelectedAnswer('D')">Choice
+                      4</button>
+                  </div>
+                </div><!-- end choices-->
               </div>
-        </footer>
 
-    </div>
-    
-    <!-- Load Bootstrap js v5 CDN -->
+            </div>
+            <div class="row">
+              <div id="progress" class="col-md-6"></div>
+              <div class="col-md-3">correct answers:<span id="score">0</span></div>
+              <div class="col-md-3">current streak:<span id="streak">0</span></div>
+            </div>
+          </div>
+        </section>
+        <!--end game load section-->
+        <section class="row game-end-section" id="gameEnd" style="display:none;">
+          <div class="container bg-light d-flex ">
+            <div class="row py-3">
+              <div class="col-md-12">
+
+                content game end content logic
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!--end game load section-->
+      </div>
+    </main>
+
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">social links</div>
+          <div class="col-md-6">&copy; 2022 QuizBox, educational project</div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Load Bootstrap js v5 CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
-<!-- Load Font Awesome icon kit for icons -->
-<script src="https://kit.fontawesome.com/1a728906ad.js" crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
-   
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <!-- Load Font Awesome icon kit for icons -->
+  <script src="https://kit.fontawesome.com/1a728906ad.js" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+
 </body>
+
 </html>
