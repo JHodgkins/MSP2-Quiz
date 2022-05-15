@@ -13,7 +13,7 @@ const questionChoiceD = document.getElementById("D");
 const totalQuestionsLength = questions.length -1;
 let currentQuestion = 0;
 
-// Randomise for question array
+// Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
 function randomise(questionsArray) {
     return Math.random() - 0.5;
 }
@@ -29,6 +29,18 @@ function displayQuestionOnScreen() {
     questionChoiceD.innerHTML = userQuestion.choiceD;
 };
 
+// Check clicked on answer matches correct object answer 
+function checkSelectedAnswer(choice) {
+    if(choice == questions[currentQuestion].correct) {
+        alert('Well Done, you got the Question correct');
+    }else {
+        alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
+    };
+    if(currentQuestion < totalQuestionsLength) {
+        currentQuestion++;
+        displayQuestionOnScreen();
+    };
+};
 // Game start
 function gameStart() {
     intro.style.display = 'none';
@@ -37,6 +49,8 @@ function gameStart() {
     displayQuestionOnScreen();
     playBtn.innerText = 'Restart QuizBox';
 }
+
+
 
 // event listeners
 
