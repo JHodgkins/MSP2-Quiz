@@ -9,9 +9,13 @@ const questionChoiceB = document.getElementById("B");
 const questionChoiceC = document.getElementById("C");
 const questionChoiceD = document.getElementById("D");
 const gameProgress = document.getElementById("progress");
+const gameStreak = document.getElementById("streak");
 
-// set current questions correct counter to initial value of 0
+// Set current questions correct counter to initial value of 0
 let currentQuestionsCorrect = 0;
+
+// Set streak counter to initial value of 0
+let streak = 0;
 
 // get total amount of questions and set a variable to hold current question index
 const totalQuestionsLength = questions.length -1;
@@ -49,9 +53,15 @@ function checkSelectedAnswer(choice) {
         correctChoice(choice);
         incrementQuestionsCorrect();
         alert('Well Done, you got the Question correct');
+        streak++;
+        gameStreak.innerText = streak;
     }else {
         incorrectChoice(choice);
         alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
+        if(streak >= 1) {
+            streak = 0;
+        }
+        gameStreak.innerText = streak;
     };
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
