@@ -1,4 +1,5 @@
 function sendMail(contactForm) {
+    // Padd through values from form to emailjs template variables+
     emailjs.send("service_p5btvn8","template_hn8lbiw",{
         to_name: contactForm.friendsname.value,
         to_email: contactForm.friendsemail.value,
