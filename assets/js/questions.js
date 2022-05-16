@@ -24,7 +24,7 @@ let questions = [
         correct: "B"
     },
     {
-        question: "what is a flock of crows called?",
+        question: "what is a group of crows called?",
         choiceA: "murder",
         choiceB: "flock",
         choiceC: "skool",
