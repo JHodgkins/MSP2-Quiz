@@ -132,6 +132,10 @@ input + span {
 
   /* Game questions screen */
 
+  #game_load {
+      margin-top: 4rem;
+  }
+
   .choice-container {
     display: flex;
     width: 100%;
@@ -158,6 +162,19 @@ input + span {
     padding: 1.5rem;
     width: 100%;
     border: none;
+}
+
+#progress {
+    display: flex;
+    flex-wrap: wrap;
+}
+.incorrect-choice {
+    background-color: red;
+    color: white;
+}
+.correct-choice {
+    background-color: green;
+    color: white;
 }
 
 
