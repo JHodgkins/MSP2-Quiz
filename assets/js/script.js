@@ -14,13 +14,13 @@ const gameStreak = document.getElementById("streak");
 // Set current questions correct counter to initial value of 0
 let currentQuestionsCorrect = 0;
 
-// Set streak counter to initial value of 0
+// Set streak counter to initial value of 0, longest streak value set to 0
 let streak = 0;
+let longestStreak = 0;
 
 //set game points value to initl value 0, bonus pounts value set to 100
 let gamePoints = 0;
 let bonus = 100;
-
 
 // get total amount of questions and set a variable to hold current question index
 const totalQuestionsLength = questions.length -1;
@@ -28,7 +28,7 @@ let currentQuestion = 0;
 
 // Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
 function randomise(q) {
-    return Math.random() - 0.5;
+    return Math.random() - 1;
 }
 
 // Display question and available answer choices
@@ -46,7 +46,6 @@ function displayQuestionOnScreen() {
 function numberOfQuestionsIndicator() {
     let i = 0;
     for(let i = 0; i <= totalQuestionsLength; i++) {
-    console.log("question" + i + "of", totalQuestionsLength);
     let questionNumber = i +1;
     gameProgress.innerHTML += '<span class="game-progress" id="'+i+'">' + questionNumber + '</span>';
     }
@@ -55,20 +54,20 @@ function numberOfQuestionsIndicator() {
 // Check clicked on answer matches correct object answer 
 function checkSelectedAnswer(choice) {
     if(choice == questions[currentQuestion].correct) {
+        alert('Well Done, you got the Question correct');
         correctChoice(choice);
         incrementQuestionsCorrect();
         streak++;
+        longestStreak = streak;
         gameStreak.innerText = streak;
         gamePoints += bonus;
-        alert('Well Done, you got the Question correct');
-        
     }else {
+        alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
         incorrectChoice(choice);
         if(streak >= 1) {
             streak = 0;
         }
         gameStreak.innerText = streak;
-        alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
     };
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
@@ -77,11 +76,10 @@ function checkSelectedAnswer(choice) {
 };
 
 function incorrectChoice(choice) {
-    //document.getElementById(choice).classList.add('incorrect-choice');
     document.getElementById(currentQuestion).classList.add('incorrect-choice');
 }
+
 function correctChoice(choice) {
-    //document.getElementById(choice).classList.add('correct-choice');
     document.getElementById(currentQuestion).classList.add('correct-choice');
 }
 
@@ -100,8 +98,6 @@ function gameStart() {
     playBtn.innerText = 'Restart QuizBox';
     numberOfQuestionsIndicator()
 }
-
-
 
 // event listeners
 
