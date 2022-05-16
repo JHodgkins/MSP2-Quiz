@@ -168,6 +168,11 @@ input + span {
     display: flex;
     flex-wrap: wrap;
 }
+.game-progress {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--purple);
+}
 .incorrect-choice {
     background-color: red;
     color: white;
