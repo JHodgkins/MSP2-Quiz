@@ -17,6 +17,11 @@ let currentQuestionsCorrect = 0;
 // Set streak counter to initial value of 0
 let streak = 0;
 
+//set game points value to initl value 0, bonus pounts value set to 100
+let gamePoints = 0;
+let bonus = 100;
+
+
 // get total amount of questions and set a variable to hold current question index
 const totalQuestionsLength = questions.length -1;
 let currentQuestion = 0;
@@ -52,16 +57,18 @@ function checkSelectedAnswer(choice) {
     if(choice == questions[currentQuestion].correct) {
         correctChoice(choice);
         incrementQuestionsCorrect();
-        alert('Well Done, you got the Question correct');
         streak++;
         gameStreak.innerText = streak;
+        gamePoints += bonus;
+        alert('Well Done, you got the Question correct');
+        
     }else {
         incorrectChoice(choice);
-        alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
         if(streak >= 1) {
             streak = 0;
         }
         gameStreak.innerText = streak;
+        alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
     };
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
