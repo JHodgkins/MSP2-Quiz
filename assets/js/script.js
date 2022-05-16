@@ -10,12 +10,15 @@ const questionChoiceC = document.getElementById("C");
 const questionChoiceD = document.getElementById("D");
 const gameProgress = document.getElementById("progress");
 
+// set current questions correct counter to initial value of 0
+let currentQuestionsCorrect = 0;
+
 // get total amount of questions and set a variable to hold current question index
 const totalQuestionsLength = questions.length -1;
 let currentQuestion = 0;
 
 // Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
-function randomise(questionsArray) {
+function randomise(q) {
     return Math.random() - 0.5;
 }
 
@@ -44,6 +47,7 @@ function numberOfQuestionsIndicator() {
 function checkSelectedAnswer(choice) {
     if(choice == questions[currentQuestion].correct) {
         correctChoice(choice);
+        incrementQuestionsCorrect();
         alert('Well Done, you got the Question correct');
     }else {
         incorrectChoice(choice);
@@ -62,6 +66,13 @@ function incorrectChoice(choice) {
 function correctChoice(choice) {
     //document.getElementById(choice).classList.add('correct-choice');
     document.getElementById(currentQuestion).classList.add('correct-choice');
+}
+
+// Incroment correct questions correct
+function incrementQuestionsCorrect(){
+    let currentQuestionsCorrect = parseInt(document.getElementById('score').innerText);
+    document.getElementById('score').innerText = ++currentQuestionsCorrect;
+    return currentQuestionsCorrect; 
 }
 
 // Game start
