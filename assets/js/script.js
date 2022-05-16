@@ -36,7 +36,7 @@ function numberOfQuestionsIndicator() {
     for(let i = 0; i <= totalQuestionsLength; i++) {
     console.log("question" + i + "of", totalQuestionsLength);
     let questionNumber = i +1;
-    gameProgress.innerHTML += '<span class="" style="padding:10px; margin:10px; border:1px solid black;" id="'+i+'">' + questionNumber + '</span>';
+    gameProgress.innerHTML += '<span class="game-progress" id="'+i+'">' + questionNumber + '</span>';
     }
 };
 
