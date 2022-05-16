@@ -8,6 +8,7 @@ const questionChoiceA = document.getElementById("A");
 const questionChoiceB = document.getElementById("B");
 const questionChoiceC = document.getElementById("C");
 const questionChoiceD = document.getElementById("D");
+const gameProgress = document.getElementById("progress");
 
 // get total amount of questions and set a variable to hold current question index
 const totalQuestionsLength = questions.length -1;
@@ -29,11 +30,23 @@ function displayQuestionOnScreen() {
     questionChoiceD.innerHTML = userQuestion.choiceD;
 };
 
+// show visual indication of how many questions there are
+function numberOfQuestionsIndicator() {
+    let i = 0;
+    for(let i = 0; i <= totalQuestionsLength; i++) {
+    console.log("question" + i + "of", totalQuestionsLength);
+    let questionNumber = i +1;
+    gameProgress.innerHTML += '<span class="" style="padding:10px; margin:10px; border:1px solid black;" id="'+i+'">' + questionNumber + '</span>';
+    }
+};
+
 // Check clicked on answer matches correct object answer 
 function checkSelectedAnswer(choice) {
     if(choice == questions[currentQuestion].correct) {
+        correctChoice(choice);
         alert('Well Done, you got the Question correct');
     }else {
+        incorrectChoice(choice);
         alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
     };
     if(currentQuestion < totalQuestionsLength) {
@@ -41,13 +54,23 @@ function checkSelectedAnswer(choice) {
         displayQuestionOnScreen();
     };
 };
+
+function incorrectChoice(choice) {
+    //document.getElementById(choice).classList.add('incorrect-choice');
+    document.getElementById(currentQuestion).classList.add('incorrect-choice');
+}
+function correctChoice(choice) {
+    //document.getElementById(choice).classList.add('correct-choice');
+    document.getElementById(currentQuestion).classList.add('correct-choice');
+}
+
 // Game start
 function gameStart() {
     intro.style.display = 'none';
-    
     gameLoad.style.display = 'block';
     displayQuestionOnScreen();
     playBtn.innerText = 'Restart QuizBox';
+    numberOfQuestionsIndicator()
 }
 
 
