@@ -33,7 +33,9 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="rules.html">rules</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#quizboxModal">rules
+                  <span class="sr-only">(opens a modal window)</span>
+                </a>
               </li>
             </ul>
             <a href="game-landing.html" id="play" class="btn play-game-small">Play QuizBox</a>
@@ -131,11 +133,34 @@
     <footer class="mt-auto">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">social links</div>
+          <div class="col-md-6"></div>
           <div class="col-md-6">&copy; 2022 QuizBox, educational project</div>
         </div>
       </div>
     </footer>
+
+    <!-- quizBox rules Modal -->
+    <div class="modal fade" id="quizboxModal" tabindex="-1" aria-labelledby="quizboxModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="quizboxModalLabel">QuizBox Rules</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close QuizBox rules modal"></button>
+          </div>
+          <div class="modal-body">
+            <p>There are 3 simple rules.</p>
+            <ol class="text-start">
+                <li>Answer 15 questions to progress through the quiz</li>
+                <li>Do not refresh the browser window or select back or your progres will be lost</li>
+                <li>Above all else, have fun learning new knowledge</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn play-game-small" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
