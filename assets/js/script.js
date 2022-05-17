@@ -36,7 +36,7 @@ totalQuestionsLength = totalQuestionsToAnswer -1;
 
 // Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
 function randomise(q) {
-    return Math.random() - 1;
+    return Math.random() - 0.5;
 }
 
 // Display question and available answer choices
@@ -85,6 +85,7 @@ function checkSelectedAnswer(choice) {
         displayQuestionOnScreen();
     }else {
         endOfGame();
+        randomiseQuestionArray  = questions.sort(randomise);
     };
 };
 
@@ -120,8 +121,14 @@ function encouragement() {
 function endOfGame() {
     gameEnd.style.display = 'block';
     gameLoad.style.display = 'none';
-
-}
+    gameEndScreen.innerHTML = `
+    <h1>Well Done, How did you do?</h1>
+    <ul class="end-screen-ul">
+        <li>Longest Streak: ${longestStreak}</li>
+        <li>Correct answers: ${currentQuestionsCorrect}</li>
+        <li>Total points: ${gamePoints}</li>
+    </ul>`;
+};
 
 // Game start
 function gameStart() {
