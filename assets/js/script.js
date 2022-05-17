@@ -43,7 +43,7 @@ function randomise(q) {
 function displayQuestionOnScreen() {
     randomiseQuestionArray  = questions.sort(randomise);
     userQuestion = questions[currentQuestion];
-    gameQuestion.innerText = userQuestion.question;
+    gameQuestion.innerHTML = `Question ${currentQuestion +1}:  ${userQuestion.question}`;
     questionChoiceA.innerHTML = userQuestion.choiceA;
     questionChoiceB.innerHTML = userQuestion.choiceB;
     questionChoiceC.innerHTML = userQuestion.choiceC;
