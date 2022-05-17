@@ -61,6 +61,7 @@ function checkSelectedAnswer(choice) {
         longestStreak = streak;
         gameStreak.innerText = streak;
         gamePoints += bonus;
+        streakAward();
     }else {
         alert(`Question was incorrect, the correct answer was ${questions[currentQuestion].correct}`);
         incorrectChoice(choice);
@@ -89,6 +90,12 @@ function incrementQuestionsCorrect(){
     document.getElementById('score').innerText = ++currentQuestionsCorrect;
     return currentQuestionsCorrect; 
 }
+
+// Alert user when a certain streak count is reached
+function streakAward() {
+    if(streak == 2 || streak == 5 || streak == 10 || streak == 15) {
+        alert(`You just got a ${streak} question streak, well done keep going`);
+    }};
 
 // Game start
 function gameStart() {
