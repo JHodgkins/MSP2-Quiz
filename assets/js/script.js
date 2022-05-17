@@ -10,6 +10,8 @@ const questionChoiceC = document.getElementById("C");
 const questionChoiceD = document.getElementById("D");
 const gameProgress = document.getElementById("progress");
 const gameStreak = document.getElementById("streak");
+const gameEnd = document.getElementById("gameEnd");
+const gameEndScreen = document.getElementById("game_over");
 
 // Total question to ask through the quiz
 let totalQuestionsToAnswer = 3;
@@ -81,6 +83,8 @@ function checkSelectedAnswer(choice) {
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
         displayQuestionOnScreen();
+    }else {
+        endOfGame();
     };
 };
 
@@ -111,6 +115,13 @@ function encouragement() {
         alert(`Keep going, don't give up!`);
     }
 };
+
+// Game over end screen
+function endOfGame() {
+    gameEnd.style.display = 'block';
+    gameLoad.style.display = 'none';
+
+}
 
 // Game start
 function gameStart() {
