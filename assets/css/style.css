@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:wght@400;500;700&display=swap');
 
 /* Stylesheet Index
-1. colour scheme values
+1. Colour scheme values
 2. Base body, headings, paragraph and link valuess
-3. utility classes
+3. Utility classes
 4. Header section
-5. Landing page
+5. Homepage
+-- Section 1
+-- Section 2
+6. Game landing page
+7. Game questions screen
+8. End game screen
+9. Footer
+10. Media queries
 
-Media queries
-
-/* 1. color scheme values */
+/* 1. Color scheme values */
 :root { 
 --white: #ffffff;
 --black: #000000;
@@ -31,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Electrolize', sans-serif;
 }
 
-/* 3. utility classes */
+/* 3. Utility classes */
 .pad-3 {
     padding: 3rem 3rem 0 3rem;
 }
@@ -40,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 52em;
 }
 
-/* 4. header section */
+/* 4. Header section */
 
 .header-wrapper {
     border-bottom: 1px solid black;
@@ -59,9 +64,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--white);
 }
 
-/* 5. Landing page sections */
+/* 5. Homepage sections */
 
-/* section 1 */
+/* Section 1 */
 .intro-section h1, .intro-section h2 {
     font-weight: 700;
     font-size: 4rem;
@@ -72,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .play-game {
     display: block;
-    /* margin: 100px auto; */
     width: 50%;
     background-color: var(--white);
     outline: 2px solid var(--purple);
@@ -85,13 +89,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
 }
 
-/* section 2 */
+/* Section 2 */
 
 /* invite friend form, code tutorial NDN Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/:valid */
 
-input + span {
-  }
-  
   input + span::before {
     position: absolute;
     right: -20px;
@@ -124,13 +125,13 @@ input + span {
       margin: 25% auto;
   }
 
-  /* Game landing page */
+  /* 6. Game landing page */
 
   .body-wrapper {
       background-color: var(--yellow);
   }
 
-  /* Game questions screen */
+  /* 7. Game questions screen */
 
   #game_load {
       margin-top: 4rem;
@@ -182,7 +183,7 @@ input + span {
     color: white;
 }
 
-/* end game screen */
+/* 8. End game screen */
 
 .end-screen-ul {
     list-style: none;
@@ -191,7 +192,7 @@ input + span {
 }
 
 
-  /* footer */
+  /* 9. Footer */
   footer .home-footer {
       height: 100px;
   }
@@ -211,7 +212,7 @@ input + span {
       color: var(--black);
   }
 
-/* media queries */
+/* 10. Media queries */
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .intro-section h1, .intro-section h2, .intro-section p {
