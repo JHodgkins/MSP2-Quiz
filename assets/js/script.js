@@ -11,6 +11,9 @@ const questionChoiceD = document.getElementById("D");
 const gameProgress = document.getElementById("progress");
 const gameStreak = document.getElementById("streak");
 
+// Total question to ask through the quiz
+let totalQuestionsToAnswer = 3;
+
 // Set current questions correct counter to initial value of 0
 let currentQuestionsCorrect = 0;
 
@@ -23,8 +26,11 @@ let gamePoints = 0;
 let bonus = 100;
 
 // get total amount of questions and set a variable to hold current question index
-const totalQuestionsLength = questions.length -1;
+let totalQuestionsLength = questions.length -1;
 let currentQuestion = 0;
+
+// Set length of shuffled array to questions amount for quiz
+totalQuestionsLength = totalQuestionsToAnswer -1;
 
 // Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
 function randomise(q) {
