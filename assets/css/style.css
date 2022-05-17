@@ -182,6 +182,14 @@ input + span {
     color: white;
 }
 
+/* end game screen */
+
+.end-screen-ul {
+    list-style: none;
+    font-size: 2ren;
+    font-weight: 500;
+}
+
 
   /* footer */
   footer .home-footer {
