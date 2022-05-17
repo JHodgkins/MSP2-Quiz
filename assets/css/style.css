@@ -201,6 +201,16 @@ input + span {
       color: var(--black);
   }
 
+  footer .social-media-links {
+      padding-left: 20px;
+      padding-top: 10px;
+  }
+
+  footer .fab {
+      font-size: 2rem;
+      color: var(--black);
+  }
+
 /* media queries */
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
