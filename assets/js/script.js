@@ -57,6 +57,7 @@ function checkSelectedAnswer(choice) {
         alert('Well Done, you got the Question correct');
         correctChoice(choice);
         incrementQuestionsCorrect();
+        currentQuestionsCorrect++;
         streak++;
         longestStreak = streak;
         gameStreak.innerText = streak;
