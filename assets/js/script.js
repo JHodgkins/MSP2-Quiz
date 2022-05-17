@@ -76,6 +76,7 @@ function checkSelectedAnswer(choice) {
             streak = 0;
         }
         gameStreak.innerText = streak;
+        encouragement();
     };
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
@@ -103,6 +104,13 @@ function streakAward() {
     if(streak == 2 || streak == 5 || streak == 10 || streak == 15) {
         alert(`You just got a ${streak} question streak, well done keep going`);
     }};
+
+// Alert user to carry on if no streak has been attained
+function encouragement() {
+    if(streak == 0 && currentQuestion == 1 || streak == 0 && currentQuestion == 4 || streak == 0 && currentQuestion == 8) {
+        alert(`Keep going, don't give up!`);
+    }
+};
 
 // Game start
 function gameStart() {
