@@ -136,7 +136,7 @@ function gameStart() {
     gameLoad.style.display = 'block';
     displayQuestionOnScreen();
     playBtn.innerText = 'Restart QuizBox';
-    numberOfQuestionsIndicator()
+    numberOfQuestionsIndicator();
 }
 
 // event listeners
