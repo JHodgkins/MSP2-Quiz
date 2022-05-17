@@ -12,12 +12,10 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Load custom css stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body class="d-flex h-100 text-center body-wrapper">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-
     <header class="mb-auto">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -46,6 +44,7 @@
 
     <main class="px-3 bg-light text-datk">
       <div class="container">
+        <!-- Game intro section -->
         <section class="row intro-section" id="intro" style="display:block;">
           <div class="container bg-light d-flex ">
             <div class="row py-3">
@@ -64,69 +63,63 @@
             </div>
           </div>
         </section>
-        <!--end intro section-->
+
+        <!-- Game section -->
         <section class="row game-section" id="gameLoad" style="display:none;">
           <div class="container bg-light  ">
             <div class="row py-3">
               <div id="contain_game" class="col-md-12">
-                
-                
                 <div id="game" class="justify-content flex-column">
-                    <h2 id="question">Question:</h2>
-                    <p id="message"></p>
-                    <div id="choices">
-                        <div class="choice-container">
-                            <p class="choice-prefix">A</p>
-                            <button class="choice-text" id="A" onclick="checkSelectedAnswer('A')">Choice 1</button>
-                        </div>
-                        <div class="choice-container">
-                            <p class="choice-prefix">B</p>
-                            <button class="choice-text" id="B" onclick="checkSelectedAnswer('B')">Choice 2</button>
-                        </div>
-                        <div class="choice-container">
-                            <p class="choice-prefix">C</p>
-                            <button class="choice-text" id="C" onclick="checkSelectedAnswer('C')">Choice 3</button>
-                        </div>
-                        <div class="choice-container">
-                            <p class="choice-prefix">D</p>
-                            <button class="choice-text" id="D" onclick="checkSelectedAnswer('D')">Choice 4</button>
-                        </div>
+                  <!-- Questions area -->
+                  <h2 id="question">Question:</h2>
+                  <p id="message"></p>
+                  <div id="choices">
+                    <div class="choice-container">
+                      <p class="choice-prefix">A</p>
+                      <button class="choice-text" id="A" onclick="checkSelectedAnswer('A')">Choice 1</button>
+                    </div>
+                    <div class="choice-container">
+                      <p class="choice-prefix">B</p>
+                      <button class="choice-text" id="B" onclick="checkSelectedAnswer('B')">Choice 2</button>
+                    </div>
+                    <div class="choice-container">
+                      <p class="choice-prefix">C</p>
+                      <button class="choice-text" id="C" onclick="checkSelectedAnswer('C')">Choice 3</button>
+                    </div>
+                    <div class="choice-container">
+                      <p class="choice-prefix">D</p>
+                      <button class="choice-text" id="D" onclick="checkSelectedAnswer('D')">Choice 4</button>
+                    </div>
+                  </div><!-- end question area -->
+                  <div class="row">
+                    <div class="container">
 
-                    </div><!-- end id choices-->
-                    <div class="row">
-                      <div class="container">
-                                            
-                    <div id="score_card" class="col-md-6">correct answers:<span id="score">0</span></div>
-                    <div id="streak_card" class="col-md-6">current streak:<span id="streak">0</span></div>
-                    <div id="progress" class="col-md-12">No Questions</div>
+                      <div id="score_card" class="col-md-6">correct answers:<span id="score">0</span></div>
+                      <div id="streak_card" class="col-md-6">current streak:<span id="streak">0</span></div>
+                      <div id="progress" class="col-md-12">No Questions</div>
+                    </div>
                   </div>
-
                 </div>
-                
-                </div> <!-- id game -->
-            
-            </div><!-- contain_game-->
-
+              </div><!-- contain_game-->
             </div>
-            
           </div>
         </section>
         <!--end game load section-->
+
+        <!-- Game over section -->
         <section class="row game-end-section" id="gameEnd" style="display:none;">
           <div class="container bg-light d-flex ">
             <div class="row py-3">
               <div id="game_over" class="col-12">
-
               </div>
               <div class="col-12">
                 <a href="game-landing.html" id="play" class="btn play-game-small">Play QuizBox Again</a>
                 <a href="index.html" id="home" class="btn play-game-small">Back to Home</a>
               </div>
-
             </div>
           </div>
         </section>
-        <!--end game load section-->
+        <!--end game over section-->
       </div>
     </main>
 
@@ -145,14 +138,15 @@
         <div class="modal-content">
           <div class="modal-header">
             <h2 class="modal-title" id="quizboxModalLabel">QuizBox Rules</h2>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close QuizBox rules modal"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close QuizBox rules modal"></button>
           </div>
           <div class="modal-body">
             <p>There are 3 simple rules.</p>
             <ol class="text-start">
-                <li>Answer 15 questions to progress through the quiz</li>
-                <li>Do not refresh the browser window or select back or your progres will be lost</li>
-                <li>Above all else, have fun learning new knowledge</li>
+              <li>Answer 15 questions to progress through the quiz</li>
+              <li>Do not refresh the browser window or select back or your progres will be lost</li>
+              <li>Above all else, have fun learning new knowledge</li>
             </ol>
           </div>
           <div class="modal-footer">
