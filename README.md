@@ -36,7 +36,8 @@ Developer: James Hodgkins
     6.4 [Typography](#typography)  
     6.5 [Icons and imagery](#icons-and-imagery)  
 7. [Features](#features)  
-
+    7.1 [Existing features](#existing-features)  
+    7.2 [Features to be implimented in future releases](#features-to-be-implimented-in-future-releases)  
 
 
 ## Overview
@@ -263,6 +264,11 @@ This section looks at features which were implemented and those that with furthe
 - Simple logical layout.  
 - Streak counter which tracks correct answer flows and records longest streak to user at game end.  
 - Accessible using assistive technologies.  
+#### Features to be implimented in future releases  
+- Provide local storage to store previous resuts.  
+- Create an API with selected appropriate questions to support the application.  
+- Allow users/parents to log in and see progress over time.  
+- Provide other types of question alongside multiple choice.  
 
 
 
