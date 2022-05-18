@@ -31,9 +31,22 @@ This link will open a modal box which displays 3 simple rules about navigating t
 ![User stories - First time user q4](testing_images/test_find_out_rules.png)  
 
 - As a first-time user, I want to find out which questions I have got correct.  
+The application provides an easy to see progress area, this shows answers which have been answered correct as well as those that were incorrect.
+Correct answers are shown filled with green and incorrect answers are filled with red.  
+![User stories - First time user q5](testing_images/test_find_out_which_question_correct.png)  
+
 - As a first-time user, I want to find out what my question streak count is.  
+Located above the prohress indicator is an area which reads ‘current streak, this will show the users current streak and if a question is incorrect the counter will reset to 0.  
+The longest streak through the game is retained for the user.  
+![User stories - First time user q6](testing_images/test_find_out_what_my_streak_is.png)  
+
 - As a first-time user, I want to be able to restart the game.  
+Located on the navigation bar while the application is running will be a button labelled ‘Restart QuizBox’ selecting this will return the user to the start game screen ready to start again.  
+![User stories - First time user q7](testing_images/test_restart_the_game.png)  
+
 - As a first-time user, I want to receive encouragement if I struggle to answer the questions.  
+The game has several encouragement messages to keep the user engaged and encourage them to carry on, these read ‘Keep going, don’t give up!’, it is hoped this will encourage user to carry on, these massages are based on if there are incorrect answers given in a row.  
+![User stories - First time user q8](testing_images/test_encouragment_message.png)  
 
 ### Returning user  
 
