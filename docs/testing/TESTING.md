@@ -71,3 +71,20 @@ Similar to a look cover check approach.
 ![User stories - Returning user q5](testing_images/test_random_question.png)  
 
 ### Site owner  
+- As the site owner, I want visitors to find QuizBox approachable and know its purpose.  
+On the main website page and the game launch page, QuizBox outlines its main purpose and what the user is expected to do.  
+Keeping the messaging clear makes the application available to a wide audience.  
+
+- As the site owner, I want visitors to understand what the rules of the game are.  
+The only rules set are two which are to help the user navigate through the quiz, if a user uses the back button or refreshes the page the game would be interrupted.  
+The final rule is to have fun which is what QuizBox is all about learning through play.  
+
+- As the site owner, I want visitors to be able to invite their friends and family to challenge each other.  
+The simple form provided to the user is designed as to be as accessible to all with clear fields which require information.  
+Once a friend receives an email it is then up to them to visit the site and no further nagging spam emails will be sent.  
+
+- As the site owner, I want the site visitors to be able to contact QuizBox and request new categories or questions.  
+Providing social media channels enables those that choose to talk and share their experience, ask or send further questions.  
+Sharing will enable new people to visit the game and QuizBox can  be a source for those who find it useful.  
+
+
