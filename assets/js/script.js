@@ -14,7 +14,7 @@ const gameEnd = document.getElementById("gameEnd");
 const gameEndScreen = document.getElementById("game_over");
 
 // Total question to ask through the quiz
-let totalQuestionsToAnswer = 3;
+let totalQuestionsToAnswer = 5;
 
 // Set current questions correct counter to initial value of 0
 let currentQuestionsCorrect = 0;
@@ -48,7 +48,7 @@ function displayQuestionOnScreen() {
     questionChoiceB.innerHTML = userQuestion.choiceB;
     questionChoiceC.innerHTML = userQuestion.choiceC;
     questionChoiceD.innerHTML = userQuestion.choiceD;
-};
+}
 
 // show visual indication of how many questions there are
 function numberOfQuestionsIndicator() {
@@ -57,7 +57,7 @@ function numberOfQuestionsIndicator() {
     let questionNumber = i +1;
     gameProgress.innerHTML += '<span class="game-progress" id="'+i+'">' + questionNumber + '</span>';
     }
-};
+}
 
 // Check clicked on answer matches correct object answer 
 function checkSelectedAnswer(choice) {
@@ -79,15 +79,15 @@ function checkSelectedAnswer(choice) {
         }
         gameStreak.innerText = streak;
         encouragement();
-    };
+    }
     if(currentQuestion < totalQuestionsLength) {
         currentQuestion++;
         displayQuestionOnScreen();
     }else {
         endOfGame();
-        randomiseQuestionArray  = questions.sort(randomise);
-    };
-};
+        let randomiseQuestionArray = questions.sort(randomise);
+    }
+}
 
 function incorrectChoice(choice) {
     document.getElementById(currentQuestion).classList.add('incorrect-choice');
@@ -108,14 +108,14 @@ function incrementQuestionsCorrect(){
 function streakAward() {
     if(streak == 2 || streak == 5 || streak == 10 || streak == 15) {
         alert(`You just got a ${streak} question streak, well done keep going`);
-    }};
+    }}
 
 // Alert user to carry on if no streak has been attained
 function encouragement() {
     if(streak == 0 && currentQuestion == 1 || streak == 0 && currentQuestion == 4 || streak == 0 && currentQuestion == 8) {
         alert(`Keep going, don't give up!`);
     }
-};
+}
 
 // Game over end screen
 function endOfGame() {
@@ -128,7 +128,7 @@ function endOfGame() {
         <li>Correct answers: ${currentQuestionsCorrect}</li>
         <li>Total points: ${gamePoints}</li>
     </ul>`;
-};
+}
 
 // Game start
 function gameStart() {
@@ -140,6 +140,5 @@ function gameStart() {
 }
 
 // event listeners
-
 // Start QiozBox game
 startGame.addEventListener('click', gameStart);
