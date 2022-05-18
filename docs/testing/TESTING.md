@@ -48,9 +48,26 @@ The game has several encouragement messages to keep the user engaged and encoura
 
 ### Returning user  
 - As a returning user, I want to know if there have been any new questions added.  
+Located on the homepage within the footer are QuizBox social links, it is hoed that users, parents will interact with these pages and this will be the one form of communication to release new content such as questions.  
+![User stories - Returning user q1](testing_images/test_find_out_more_about_quizbox.png)  
+
 - As a returning user, I want to be able to invite a friend so we can challenge each other.  
+Located within section two of the main landing page is a form which gives details on how to complete, it asks for the friends name and email address which will send an invite to the website address for the friend to visit and then play QuizBox.  
+![User stories - Returning user q2](testing_images/test_invite_a_friend_form.png)  
+
 - As a returning user, I want to be able to play the game without visiting the main website first.  
+The application comprises of two parts, the main website page which introduces the QuizBox game and a game landing page which can be bookmarked for easier navigation or added to a devices home screen using a mobile device.  
+This will allow for users to go straight to playing the game.  
+![User stories - Returning user q3](testing_images/test_game_landing_page.png)  
+
 - As a returning user, I want to beat my previous score.  
+At present this will be done by the user using memory or noting it down, this is a feature which QuizBox would like to implement in the future.  
+At present the user is presented with their score at the end of each game.  
+![User stories - Returning user q4](testing_images/test_end_game_screen_score.png)  
+
 - As a returning user, I want to receive a new set of questions to answer.  
+Currently there is a set of 15 questions which are shuffled on each playthrough, as more questions are added it is expected that no two questions will arise on multiple playthroughs and when they do will help users to memorise and take in the information.  
+Similar to a look cover check approach.  
+![User stories - Returning user q5](testing_images/test_random_question.png)  
 
 ### Site owner  
