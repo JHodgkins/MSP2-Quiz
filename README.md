@@ -271,6 +271,6 @@ This section looks at features which were implemented and those that with furthe
 - Provide other types of question alongside multiple choice.  
 
 ## Testing  
-The testing document has been written in a seperate file, please see [TESTING](docs/testing/TESTING.md)
+The testing document has been written in a seperate file, please see [TESTING](docs/testing/TESTING.md)  
 
 
