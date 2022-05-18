@@ -124,22 +124,22 @@ On devices tablet and below the user will be able to expand/collapse this menu u
 
 #### Main content area
 The main content area is used to display content dynamically dependant on the user’s choice of action, when arriving on the landing page, this area is used to hold 3 large sections each with a simple to understand description and single call to action button.  
-The areas are top section which briefly outlines the game with a call-to-action button inviting users to start the game followed by a middle section which contains a simple form inviting visitors to invite friends to the website and play QuizBox, the third section contains links to a how to guide outlining various actions such as installing to their device for a more immersive experience.  
+The areas are top section which briefly outlines the game with a call-to-action button inviting users to start the game followed by a middle section which contains a simple form inviting visitors to invite friends to the website and play QuizBox.  
 Selecting to play now will load the game area which is detailed below.  
 
-This approach was used to ensure that the user felt comfortable within the website and application, encompassing content within the header and footer allows the user to become familiar with the site navigation and always know how to navigate away or too their chosen area.  
+This approach was used to ensure that the user felt comfortable within the website and application, encompassing content within the header allowing the user to become familiar with the site navigation and always know how to navigate away or too their chosen area.  
 
 #### Game content area
-After a use has selected to play the game, the main area is filled with a game area, all game content required to take the quiz and proceed through all screens is presented to the user centrally within this area to ensure consistency, reassure a user of what to do and maintain a clean, clear user interface.  
+After a user has selected to play the game, the main area is filled with a game area, all game content required to take the quiz and proceed through all screens is presented to the user centrally within this area to ensure consistency, reassure a user of what to do and maintain a clean, clear user interface.  
 
 #### Footer section
-The footer section was designed to be useful and useable; the footer divided into two half page sections at tablet and above screen sizes, both parts provide options for the user to interact with dependant on if they are on the landing page or within the game application.  
-The left side contains a simple navigational link back to the game landing page, if within the application and on the landing page it will shows QuizBox social media links.  
-The reasoning behind this is to provide a way out for anyone playing the game which is clear for children etc., but not force social media on those playing who may not have access. This provides an effective way to offer online features but not force them.  
-The right side displays a copyright notice when on the landing page and when within the game application displays a help button which can be activated which will display an overlay giving the user options such as how to play, end game and restart.  
+The footer section was designed to be useful and useable; the footer is divided into two half page sections at tablet and above screen sizes, dependant on if they are on the landing page or within the game application.  
+The left side if within the the landing page it will shows QuizBox social media links or when within the application these have been removed.  
+The reasoning behind this is to provide social links but not force social media on those playing who may not have access. This provides an effective way to offer online features but not force them.  
+The right side displays a copyright notice when on the landing page and when within the game application.   
 
 ### Wireframes
-Wireframe designs show Mobile, Tablet and Desktop views of the main parts of the application.  
+Wireframe designs show Mobile, Tablet and Desktop views of the main concept and parts of the application.  
 The application was developed using a mobile first approach.  
 #### Landing page  
 <details><summary>Mobile</summary>
