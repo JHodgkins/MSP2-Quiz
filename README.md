@@ -254,5 +254,15 @@ The robot image was used as it appears cheerful and happy, as the application wi
 Social media icons for Facebook, twitter and Instagram were also used.  
 
 ## Features  
+This section looks at features which were implemented and those that with further research and knowledge will add to the existing set of features.  
+#### Existing features  
+- Responsive website application which reflows up to 500% zoom using browser zoom.  
+- Responsive navigation menu bar.  
+- Form validation with visual feedback given through on screen markers, surrounds including successful form submission message.  
+- User feedback alerts including encouragement messages.  
+- Simple logical layout.  
+- Streak counter which tracks correct answer flows and records longest streak to user at game end.  
+- Accessible using assistive technologies.  
+
 
 
