@@ -270,5 +270,7 @@ This section looks at features which were implemented and those that with furthe
 - Allow users/parents to log in and see progress over time.  
 - Provide other types of question alongside multiple choice.  
 
+## Testing  
+The testing document has been written in a seperate file, please see [TESTING](docs/testing/TESTING.md)
 
 
