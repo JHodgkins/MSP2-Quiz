@@ -34,7 +34,7 @@ Developer: James Hodgkins
     - [Streak leader board page](#streak-leader-board-page)  
     6.3 [Colour palette](#colours-palette)  
     6.4 [Typography](#typography)  
-    
+
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -235,6 +235,7 @@ Electric purple was used as a highlight colour and was used as it is a neutral c
 - Electric purple: #AA35FD
 Other standard colours used were black.  
 I used a tool called Contrast Grid [view live colour palette](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%231b365d%0D%0A%23DA344B%0D%0A%23ffc845%0D%0A%2358804D%0D%0A%23ffffff%0D%0A%23000000%0D%0A%23AA35FD&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa) to determine the foreground and background combinations to ensure a minimum contrast ratio of 4.5:1 was maintained.  
+![Accessible colour palette](docs/colours/accessible_colour_scheme.png) 
 
 ### Typography  
 Fonts used across the site and application were provided by Google fonts and were used in certain areas as to maintain readability.  
