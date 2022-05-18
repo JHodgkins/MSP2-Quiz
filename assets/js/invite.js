@@ -8,7 +8,7 @@ function sendMail(contactForm) {
             function(response) {
                 console.log("sucess", response);
                 form = document.getElementById('invite_form');
-                form.innerHTML += `<h1>email sent</h1>`;
+                form.innerHTML += `<h2>Email sent</h2><p>Your email was sucessfully sent to your friend, QuizBox Team</p>`;
 
             },
             function(error) {
