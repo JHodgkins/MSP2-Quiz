@@ -221,3 +221,16 @@ The application was developed using a mobile first approach.
 <details><summary>Desktop</summary>
 <img src="docs/wireframes/desktop/desktop-game-streak-leader-board.png" alt="wireframe screenshot of QuizBox game streak leader board page on desktop"></details>  
 
+### Colours palette. 
+![colour palette](docs/colours/colour_scheme.png)   
+- Sunglow: #FFC845 was used as this represents the sun glowing in the sky.  
+- Prussian blue: #1B365D was used to represent a blue sky matching the sunglow yellow.  
+- White: #FFFFFF was used as the main game background to represent clouds.  
+The three remaining colours were used in specific areas, fern green was used as a primary colour to represent a correct answer whilst rusty red was used as an incorrect answer.  
+Electric purple was used as a highlight colour and was used as it is a neutral colour liked by all genders.  
+- Fern green: #58804D
+- Rusty red: #DA344B
+- Electric purple: #AA35FD
+Other standard colours used were black.  
+I used a tool called Contrast Grid [view live colour palette](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%231b365d%0D%0A%23DA344B%0D%0A%23ffc845%0D%0A%2358804D%0D%0A%23ffffff%0D%0A%23000000%0D%0A%23AA35FD&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa) to determine the foreground and background combinations to ensure a minimum contrast ratio of 4.5:1 was maintained.  
+
