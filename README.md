@@ -39,7 +39,7 @@ The QuizBox web application is a question and multiple-choice answer quiz presen
 The QuizBox web application has been developed with its main purpose to provide a fun game for children who like to play games on their or their parents smart devices, an alternative which appeals to the target audience but benefits from also educating them.  
 The business purpose of the platform is to build an established community which promotes learning can be fun, to take small steps in learning and encourage improvement through daily return playthroughs.  
 The sites expected target audience will be to those that would like to 
-Play and increase their knowledge, play locally with friends or parents looking to provide their children with a game which aids their child’s learning.  
+Play and increase their knowledge, play with friends or parents looking to provide their children with a game which aids their child’s learning.  
 
 The website application will provide to new visitors a positive feeling demonstrating a bright simple to use interface with an easy to pick up and play approach with the games purpose being evident in its design and user experience throughout.  
 
@@ -63,7 +63,6 @@ Please view the [research](docs/research/RESEARCH.md) document for details of us
 - Find information about how to play QuizBox  
 - Quickly and easily start playing the quiz  
 - Find information about how other people have done taking the quiz  
-- Find information about playing the game offline and install to a device.  
 - Find information about when the application has new content.  
 
 ### Site owners goals  
@@ -90,25 +89,25 @@ Keyboard and screen reader navigation has also been considered and all elements 
 - As a first-time user, I want to understand what the applications purpose is so that I can decide if it interests me.  
 - As a first-time user, I want to be able to easily navigate to the game application.  
 - As a first-time user, I want to find out more about QuizBox.  
-- As a first-time user, I want to find out how to play the game.  
-- As a first-time user, I want to find out how to install the application to my device.  
-- As a first-time user, I want to get a feel of what to expect when I play the game.  
-- As a first-time user, I want to be able to ask a question about the application.  
+- As a first-time user, I want to find out the rules of the game.  
+- As a first-time user, I want to find out which questions I have got correct.   
+- As a first-time user, I want to find out what my question streak count is.   
+- As a first-time user, I want to be able to restart the game.  
+- As a first-time user, I want to receive encouragement if I struggle to answer the questions.  
 
 ### Returning user  
-- As a returning user, I want to see my previous streaks.
 - As a returning user, I want to know if there have been any new questions added.
 - As a returning user, I want to be able to invite a friend so we can challenge each other.
-- As a returning user, I want to be able to play the game without visiting the website.
-- As a returning user, I want to clear my streaks leader board and start over.
-- As a returning user, I want to receive a new set of questions to answer.
+- As a returning user, I want to be able to play the game without visiting the main website page first.  
+- As a returning user, I want to be able to beat my previous score.  
+- As a returning user, I want to receive a new set of questions to answer.  
+- As a returning user, I want to be able to ask a question about the application.  
 
 ### Site owner  
-- As the site owner, I want visitors to find information about QuizBox and its purpose.
-- As the site owner, I want visitors to understand what the game is about and how to use it.
+- As the site owner, I want visitors to find QuizBox approachable and know its purpose.
+- As the site owner, I want visitors to understand what the rules of the game are.  
 - As the site owner, I want visitors to be able to invite their friends and family to challenge each other.
 - As the site owner, I want the site visitors to be able to contact QuizBox and request new categories or questions.
-- As the site owner, I want visitors to find out how to install the application to their own devices.  
 
 ## Design  
 The application was designed to be clean, clear and easily understood by its target audience, header and footer sections persist throughout the landing page and game application page to ensure navigation is kept consistent as to provide easy navigation and a pleasant user experience (UX).    
