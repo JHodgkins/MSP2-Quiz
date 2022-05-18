@@ -6,6 +6,8 @@ This document details how the QuizBox website and application were tested to ens
     1.1[First time user](#first-time-user)  
     1.2 [Returning user](#returning-user)  
     1.3 [Site owner](#site-owner)  
+2. [Testing overview](#testing-overview)  
+
 
 
 ## User stories  
@@ -87,4 +89,7 @@ Once a friend receives an email it is then up to them to visit the site and no f
 Providing social media channels enables those that choose to talk and share their experience, ask or send further questions.  
 Sharing will enable new people to visit the game and QuizBox can  be a source for those who find it useful.  
 
+## Testing overview  
+__Automated testing__  
+Automated tests were carried out using the browser incognito mode to eliminate extension conflicts or false positives or errors due to the extension requests.  
 
