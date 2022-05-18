@@ -32,7 +32,9 @@ Developer: James Hodgkins
     - [Rules page](#rules-page)  
     - [Game over page](#game-over-page)  
     - [Streak leader board page](#streak-leader-board-page)  
-
+    6.3 [Colour palette](#colours-palette)  
+    6.4 [Typography](#typography)  
+    
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
