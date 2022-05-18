@@ -242,3 +242,12 @@ Fonts used across the site and application were provided by Google fonts and wer
 The two font families used were, Electrolize and Poppins, the fonts have a default fall-back of Sans-Serif.  
 Heading elements of the site used: Electrolize, which gives a robotic style to match imagery with Poppins being used across the remainder of site and application elements, to improve readability for users, the base font size was also set to 18px from the browser default 16px.  
 
+### Icons and imagery  
+The icon used on the main site was provided by Font Awesome free icon set with the image of a happy robot from freesvg.org.  
+The icon was selected to represent something being sent to recognise the meaning of the section content.  
+The icon can be scaled to high magnification levels and remain clear and sharp.  
+The robot image was used as it appears cheerful and happy, as the application wishes users to feel while playing.  
+![Accessible colour palette](docs/icons/icons_and_imagery.png)  
+Social media icons for Facebook, twitter and Instagram were also used.  
+
+
