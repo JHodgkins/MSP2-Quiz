@@ -34,6 +34,9 @@ Developer: James Hodgkins
     - [Streak leader board page](#streak-leader-board-page)  
     6.3 [Colour palette](#colours-palette)  
     6.4 [Typography](#typography)  
+    6.5 [Icons and imagery](#icons-and-imagery)  
+7. [Features](#features)  
+
 
 
 ## Overview
@@ -249,5 +252,7 @@ The icon can be scaled to high magnification levels and remain clear and sharp.
 The robot image was used as it appears cheerful and happy, as the application wishes users to feel while playing.  
 ![Accessible colour palette](docs/icons/icons_and_imagery.png)  
 Social media icons for Facebook, twitter and Instagram were also used.  
+
+## Features  
 
 
