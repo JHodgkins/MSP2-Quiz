@@ -21,7 +21,7 @@ Responses have been condensed for consistency.
 ### Initial questions asked  
 Question: **Do you allow your child to use your device to play games?**  
 **User:** _‘Yes, but I have to watch my child sometimes as some have popups which interrupt the game.’_  
-**User:** _‘Not often but occasionally, it is me that worries what is going to be shown on the screen, always seem to be blowing things up.’_  
+**User:** _‘Not often but occasionally, it is me that worries what is going to be shown on the screen, always seem to be mucking things up.’_  
 
 Question: **Does your child play any quiz-based games?**  
 **User:** _‘Sort of, there was one which was good at first and then became too hard, so they gave up.’_  
@@ -31,7 +31,7 @@ Question: **Do you purchase games for them to play?**
 **User:** _‘No as they always seem to find another one as soon as they get bored, so we stick to free unless it is something everyone can play’_  
 **User:** _‘Yes and no, I always find the free games have in-app purchases and I do not like my child having access to my bank details to buy something.’_  
 
-Question: **Does you know what data is collected in some apps, websites?**  
+Question: **Do you know what data is collected in some apps, websites?**  
 **User:** _‘I stay away from any app that needs data just to play a game, why would they need it’_  
 **User:** _‘I did not even realise they did, why would a game need my personal information.’_  
 
@@ -41,7 +41,7 @@ Focusing on the user interface and available features, people were asked:
 
 Question: **Does it make a difference to your child if the interface is simple or complicated with lots of available options?**  
 **User** _‘Simple is best for my child, they like to know when they press something that that is what will appear on screen.’_  
-**User** _‘My child can understand complex features and what they mean but a being able to easily navigate through the options is very important.’_  
+**User** _‘My child can understand complex features and what they mean but being able to easily navigate through the options is very important.’_  
 
 Question: **Do animations make any difference in the games your child plays?**  
 **User:** _‘Yes, fast popups coming from here there and everywhere really excites my child and can lead to me having to stop the game’_  
