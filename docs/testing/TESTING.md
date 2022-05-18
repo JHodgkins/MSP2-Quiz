@@ -8,8 +8,6 @@ This document details how the QuizBox website and application were tested to ens
     1.3 [Site owner](#site-owner)  
 
 
-
-
 ## User stories  
 ### First time user  
 - As a first-time user, I want to understand what the applications purpose is so that I can decide if it interests me.  
@@ -49,5 +47,10 @@ The game has several encouragement messages to keep the user engaged and encoura
 ![User stories - First time user q8](testing_images/test_encouragment_message.png)  
 
 ### Returning user  
+- As a returning user, I want to know if there have been any new questions added.  
+- As a returning user, I want to be able to invite a friend so we can challenge each other.  
+- As a returning user, I want to be able to play the game without visiting the main website first.  
+- As a returning user, I want to beat my previous score.  
+- As a returning user, I want to receive a new set of questions to answer.  
 
 ### Site owner  
