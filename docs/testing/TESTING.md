@@ -18,7 +18,9 @@ This document details how the QuizBox website and application were tested to ens
     5.3 [Tab order test](#tab-order-test)  
     5.4 [Landmark test](#landmark-test)  
     5.5 [Screen reader test](#screen-reader-test)  
-
+6. [Automated testing](#automated-testing)  
+    6.1 [Lighthouse](#lighthouse)  
+    
 
 
 ## User stories  
@@ -180,3 +182,14 @@ These landmarks have been implemented using HTML5 semantic markup and where appr
  All pages of the application behaved as expected and no keyboard traps or block points were found.  
 Devices used: Windows 10 using NVDA 2022 and JAWS 2022, Mac using VoiceOver for Mac and iPhone X using VoiceOver.  
 
+## Automated testing  
+### Lighthouse  
+Google Chrome DevTools were used to run and test the Performance, Accessibility, Best practice, and SEO of each page within the website and application.  
+- Homepage desktop  
+![Lighthouse test - Homepage desktop](testing_images/test_lighthouse_homepage_desktop.png)  
+- Homepage mobile  
+![Lighthouse test - Homepage mobile](testing_images/test_lighthouse_homepage_mobile.png)  
+- Game landing and game desktop  
+![Lighthouse test - Game landing and game desktop](testing_images/test_lighthouse_game_landing_desktop.png)  
+- Game landing and game mobile  
+![Lighthouse test - Game landing and game mobile](testing_images/test_lighthouse_game_landing_mobile.png)  
