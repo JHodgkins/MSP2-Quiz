@@ -36,6 +36,7 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     6.3 [Colour palette](#colours-palette)  
     6.4 [Typography](#typography)  
     6.5 [Icons and imagery](#icons-and-imagery)  
+    6.6 [Sitemap and game logic]
 7. [Features](#features)  
     7.1 [Existing features](#existing-features)  
     7.2 [Features to be implimented in future releases](#features-to-be-implimented-in-future-releases)  
@@ -267,6 +268,10 @@ The icon can be scaled to high magnification levels and remain clear and sharp.
 The robot image was used as it appears cheerful and happy, as the application wishes users to feel while playing.  
 ![Accessible colour palette](docs/icons/icons_and_imagery.png)  
 Social media icons for Facebook, twitter and Instagram were also used.  
+
+### Sitemap and game logic  
+Below is a concept design of the site structure and the game logic behind QuizBox.  
+![Sitemap and game logic diagram](docs/images/sitemap_and_game_logic.png)  
 
 ## Features  
 This section looks at features which were implemented and those that with further research and knowledge will add to the existing set of features.  
