@@ -45,6 +45,10 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     9.2 [Frameworks and libraries](#frameworks-and-libraries)  
     9.3 [Programs and online resources](#programs-and-online-resources)  
 10. [Deployments](#deployments)  
+    10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)  
+    10.2 [Forking the GitHub Repository](#forking-the-github-repository)  
+    10.3 [Cloning to GitPod](#cloning-to-gitpod)  
+
 
 
 
@@ -332,3 +336,11 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
 6.	Create a new repository and Gitpod will launch your new repository into the user interface.  
 ### Making a local clone  
+1.	Log in to GitHub and locate the GitHub Repository  
+2.	Locate the Code button located to the right of the screen, click on this to reveal a sub menu, "Clone or download a zip file should be seen".  
+3.	To clone the repository using HTTPS, under "Clone with HTTPS title", copy the link to your clipboard.
+4.	Open Git Bash  
+5.	Change the current working directory to the location where you wish the cloned directory to be made.  
+6.	Type git clone, and then paste the URL you copied above. e.g., $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+7.	Press Enter and your local clone will start to be created.  
+
