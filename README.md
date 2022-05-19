@@ -292,5 +292,14 @@ A list of all technologies and software and online resources used to create the 
 -  [Google fonts](https://fonts.google.com/), Source sans pro and Poppins fonts were used across the site.  
 -  [EmailJS](https://www.emailjs.com/), used for sending emails through forms.  
 
-
+### Programs and online resources  
+-  [favicon.io](https://favicon.io) used to create the favicon.
+-  [GitHub](https://github.io), was used to store committed files
+-  [Git](https://git-scm.com/) and [Gitpod](https://gitpod.io/), used in conjunction through Gitpod to commit and push files to GitHub
+-  [Photoshop 2021](https://adobe.com), used for editing of screenshots.  
+-  [Figma](https://www.figma.com/), used to create the wireframe designs of the applicaion.
+-  [Colour scheme](https://coolors.co/9cd5f4-fde06f-133c55-386fa4-678d58), used to create a colour palette.  
+-  [Lighthouse](https://developers.google.com/web/tools/lighthouse), used to test performance, accessibility, best practices, and SEO within the Chrome browser.
+-  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.  
+-  [CSS Minifier](https://www.toptal.com/developers/cssminifier/), used to minify CSS.  
 
