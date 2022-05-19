@@ -30,9 +30,19 @@ let bonus = 100;
 // get total amount of questions and set a variable to hold current question index
 let totalQuestionsLength = questions.length -1;
 let currentQuestion = 0;
+let randomiseQuestionArray;
 
 // Set length of shuffled array to questions amount for quiz
 totalQuestionsLength = totalQuestionsToAnswer -1;
+
+// Game start
+function gameStart() {
+    intro.style.display = 'none';
+    gameLoad.style.display = 'block';
+    displayQuestionOnScreen();
+    playBtn.innerText = 'Restart QuizBox';
+    numberOfQuestionsIndicator();
+}
 
 // Randomise for question array : source Stack Overflow: https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
 function randomise(q) {
@@ -52,8 +62,7 @@ function displayQuestionOnScreen() {
 
 // show visual indication of how many questions there are
 function numberOfQuestionsIndicator() {
-    let i = 0;
-    for(let i = 0; i <= totalQuestionsLength; i++) {
+    for(i = 0; i <= totalQuestionsLength; i++) {
     let questionNumber = i +1;
     gameProgress.innerHTML += '<span class="game-progress" id="'+i+'">' + questionNumber + '</span>';
     }
@@ -85,7 +94,7 @@ function checkSelectedAnswer(choice) {
         displayQuestionOnScreen();
     }else {
         endOfGame();
-        let randomiseQuestionArray = questions.sort(randomise);
+        randomiseQuestionArray = questions.sort(randomise);
     }
 }
 
@@ -127,15 +136,6 @@ function endOfGame() {
         <li>Correct answers: ${currentQuestionsCorrect}</li>
         <li>Total points: ${gamePoints}</li>
     </ul>`;
-}
-
-// Game start
-function gameStart() {
-    intro.style.display = 'none';
-    gameLoad.style.display = 'block';
-    displayQuestionOnScreen();
-    playBtn.innerText = 'Restart QuizBox';
-    numberOfQuestionsIndicator();
 }
 
 // event listeners
