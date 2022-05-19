@@ -8,6 +8,10 @@ This document details how the QuizBox website and application were tested to ens
     1.3 [Site owner](#site-owner)  
 2. [Testing overview](#testing-overview)  
 3. [Test results overview](#test-results-overview)  
+4. [Validation Testing](#validation-testing)  
+    4.1 [HTML validation](#html-validation)  
+    4.2 [CSS validation](#css-validation)  
+    4.3 [JS validation](#js-validation)  
 
 ## User stories  
 ### First time user  
@@ -115,9 +119,18 @@ Please find the issues.xlsx file on the GitHub repository or view on Dropbox.
 | Screen reader    | PASS     | PASS              | PASS |
 | Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         | PASS         | PASS          |
 
-## Validation testing 
-html
+## Validation testing  
+### HTML validation  
+-  Homepage - [PASS | Validation link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjhodgkins.github.io%2FMSP2-Quiz%2Findex.html)    
+![W3C Validator result](testing_images/test_html_validator_home_page.png)  
+-  Game landing/game - [PASS | Validation link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjhodgkins.github.io%2FMSP2-Quiz%2Fgame-landing.html)    
+![W3C Validator result](testing_images/test_html_validator_game_landing_game_page.png)  
 
-css
+### CSS validation
+-  Homepage - [PASS | Validation link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjhodgkins.github.io%2FMSP2-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+![W3C Validator result](testing_images/test_css_validator_homepage.png)  
+-  Game landing/game - [PASS | Validation link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjhodgkins.github.io%2FMSP2-Quiz%2Fgame-landing.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
+![W3C Validator result](testing_images/test_css_validator_game_landing_page.png)  
 
-https://capture.dropbox.com/r7dabdHU5HiydNwq
+### JS validation  
+![JShint Validator result](testing_images/test_jshint_valadator.png)  
