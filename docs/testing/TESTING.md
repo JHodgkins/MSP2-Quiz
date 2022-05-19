@@ -116,7 +116,7 @@ NVDA and JAWS and VoiceOver were used in some tests, this is software which I ow
 
 ## Test results overview  
 Below is a table which shows an overview of the various tests undertaken, results of tests and issues were stored in an Excel document for functionality and accessibility reasons, the excel document contains 3 sheets of tests.  
-Please find the issues.xlsx file on the GitHub repository or view on Dropbox.  
+Please find the [tests.xlsx](tests.xlsx) file on the GitHub repository.  
  
 | Test             | Homepage | Game landing page | Game |
 |------------------|----------|-------------------|------|
