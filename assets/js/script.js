@@ -122,7 +122,6 @@ function endOfGame() {
     gameEnd.style.display = 'block';
     gameLoad.style.display = 'none';
     gameEndScreen.innerHTML = `
-    <h1>Well Done, How did you do?</h1>
     <ul class="end-screen-ul">
         <li>Longest Streak: ${longestStreak}</li>
         <li>Correct answers: ${currentQuestionsCorrect}</li>
