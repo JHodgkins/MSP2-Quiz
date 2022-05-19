@@ -22,8 +22,6 @@ This document details how the QuizBox website and application were tested to ens
     6.1 [Lighthouse](#lighthouse)  
     6.2 [Simulated devices test](#simulated-devives-test)
 
-
-
 ## User stories  
 ### First time user  
 - As a first-time user, I want to understand what the applications purpose is so that I can decide if it interests me.  
