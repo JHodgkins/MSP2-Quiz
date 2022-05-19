@@ -317,7 +317,18 @@ This milestone project was deployed to GitHub Pages using the following steps.
 6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section, this will take a few minutes before the link shows your page.  
 
 ### Forking the GitHub repository  
+Forking a GitHub Repository will make a copy of the original repository on your GitHub account to view, edit or make changes without worrying about affecting the original repository.
+1.	Log in to GitHub and locate the GitHub Repository you wish to fork
+2.	At the top of the Repository, to the right above the "Settings" link on the menu, locate the "Fork" Button and select.
+3.	You should now have a copy of the original repository within your GitHub account.  
 
 ### Cloning to Gitpod  
-
+1.	Go to [gitpod.io](https://gitpod.io)
+2.	Create an account or sign in
+3.	Open a new window and navigate to the extension store of your browser
+-   [Chromium browsers](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki)
+-   [Firefox](https://addons.mozilla.org/firefox/addon/gitpod/)
+4.	Accept permissions for the extensions and then return to the repository you wish to clone.
+5.	There should be a green Gitpod button now located to the right, selecting this will open GitHub new repository screen.
+6.	Create a new repository and Gitpod will launch your new repository into the user interface.  
 ### Making a local clone  
