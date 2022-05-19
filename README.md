@@ -40,6 +40,11 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     7.1 [Existing features](#existing-features)  
     7.2 [Features to be implimented in future releases](#features-to-be-implimented-in-future-releases)  
 8. [Testing](#testing)  
+9. [Technologies used](#technologies-used)  
+    9.1 [Languages](#languages)  
+    9.2 [Frameworks and libraries](#frameworks-and-libraries)  
+    9.3 [Programs and online resources](#programs-and-online-resources)  
+
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -273,5 +278,19 @@ This section looks at features which were implemented and those that with furthe
 
 ## Testing  
 The testing document has been written in a seperate file, please see [TESTING](docs/testing/TESTING.md)  
+
+## Technologies used  
+A list of all technologies and software and online resources used to create the QuizBox application.  
+### Languages  
+-  [HTML](https://en.wikipedia.org/wiki/HTML5)  
+-  [CSS](https://en.wikipedia.org/wiki/CSS)  
+-  [JS](https://en.wikipedia.org/wiki/JavaScript)  
+
+### Frameworks and libraries  
+-  [Bootstrap version 5.0.2](https://getbootstrap.com/)  
+-  [Font Awesome](https://fontawesome.com/), Icons used throughout the site.  
+-  [Google fonts](https://fonts.google.com/), Source sans pro and Poppins fonts were used across the site.  
+-  [EmailJS](https://www.emailjs.com/), used for sending emails through forms.  
+
 
 
