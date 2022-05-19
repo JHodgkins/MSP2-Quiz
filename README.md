@@ -48,9 +48,11 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     10.1 [Deploying to GitHub Pages](#deploying-to-github-pages)  
     10.2 [Forking the GitHub Repository](#forking-the-github-repository)  
     10.3 [Cloning to GitPod](#cloning-to-gitpod)  
-
-
-
+11. [Credits and resources used](#credits-and-resources-used)  
+    11.1 [Code snippets and tutorials](#code-snippets-and-tutorials)  
+    11.2 [Images and icons](#images-and-icons)  
+    11.3 [Content](#content)  
+    
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -343,4 +345,16 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 5.	Change the current working directory to the location where you wish the cloned directory to be made.  
 6.	Type git clone, and then paste the URL you copied above. e.g., $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
 7.	Press Enter and your local clone will start to be created.  
+
+## Credits and resources used  
+### Code snippets and tutorials  
+- [Quiz YouTube tutorial](https://youtu.be/f4fB9Xg2JEY) used to understand the concept of how a quiz game works, I also used this tutorial to help style the choice selectors.  
+- [Invalid/valid code tutorial MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid), used for form validation.  
+
+### Images and icons  
+- Icons used within the application were Font Awesome free icon.  
+- Happy robot svg was sourced from [freesvg.org](ttps://freesvg.org/happy-robot-remix)  
+
+### Content  
+QuizBox questions were a multitude of questions made by myself and from other resources, these include [Quiz book for kids](https://www.amazon.co.uk/Quiz-Clever-Buster-Brain-Games/dp/1780553145) and [funquizzes](https://www.funquizzes.uk/kids).  
 
