@@ -36,7 +36,7 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     6.3 [Colour palette](#colours-palette)  
     6.4 [Typography](#typography)  
     6.5 [Icons and imagery](#icons-and-imagery)  
-    6.6 [Sitemap and game logic]
+    6.6 [Sitemap and game logic](#sitemap-and-game-logic)  
 7. [Features](#features)  
     7.1 [Existing features](#existing-features)  
     7.2 [Features to be implimented in future releases](#features-to-be-implimented-in-future-releases)  
