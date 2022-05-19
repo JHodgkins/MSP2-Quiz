@@ -20,7 +20,8 @@ This document details how the QuizBox website and application were tested to ens
     5.5 [Screen reader test](#screen-reader-test)  
 6. [Automated testing](#automated-testing)  
     6.1 [Lighthouse](#lighthouse)  
-    
+    6.2 [Simulated devices test](#simulated-devives-test)
+
 
 
 ## User stories  
@@ -116,7 +117,7 @@ __Screen reader software__
 NVDA and JAWS and VoiceOver were used in some tests, this is software which I own and was run in real time and not simulated.  
 
 ## Test results overview  
-Below is a table which shows an overview of the various tests undertaken, results of tests were stored in an Excel document for functionality and accessibility reasons, the excel document contains 3 sheets of tests.  
+Below is a table which shows an overview of the various tests undertaken, results of tests and issues were stored in an Excel document for functionality and accessibility reasons, the excel document contains 3 sheets of tests.  
 Please find the issues.xlsx file on the GitHub repository or view on Dropbox.  
  
 | Test             | Homepage | Game landing page | Game |
@@ -193,3 +194,9 @@ Google Chrome DevTools were used to run and test the Performance, Accessibility,
 ![Lighthouse test - Game landing and game desktop](testing_images/test_lighthouse_game_landing_desktop.png)  
 - Game landing and game mobile  
 ![Lighthouse test - Game landing and game mobile](testing_images/test_lighthouse_game_landing_mobile.png)  
+
+### Simulated devives test  
+Chromes built in device simulator which covers many different device sizes was used to simulate the application on a variety of device screen sizes.  
+All simulated screen sizes rendered the application correctly and as expected, no issues were found.  
+
+[Back to Repository](https://github.com/JHodgkins/MSP2-Quiz)  
