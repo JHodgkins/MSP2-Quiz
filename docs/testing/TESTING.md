@@ -12,6 +12,10 @@ This document details how the QuizBox website and application were tested to ens
     4.1 [HTML validation](#html-validation)  
     4.2 [CSS validation](#css-validation)  
     4.3 [JS validation](#js-validation)  
+5. [Manual tests](#manual-tests)  
+    5.1 [Rendering in browser & Reflow test](#rendering-in-browser--reflow-test)  
+    5.2
+
 
 ## User stories  
 ### First time user  
@@ -134,3 +138,16 @@ Please find the issues.xlsx file on the GitHub repository or view on Dropbox.
 
 ### JS validation  
 ![JShint Validator result](testing_images/test_jshint_valadator.png)  
+
+## Manual testing  
+### Rendering in browser & Reflow test  
+Devices used: Windows 10 PC, Mac Studio, iPad Air 2, iPhone X  
+Desktops  
+-  Chrome, EDGE, Firefox on PC - PASS  
+-  Safari, Chrome on Mac - PASS  
+Tablet and mobile
+-  Safari - PASS  
+I found that the website and application reflowed and displayed correctly and as expected on different screen sizes and systems.  
+
+
+ 
