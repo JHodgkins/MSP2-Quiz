@@ -116,3 +116,8 @@ Please find the issues.xlsx file on the GitHub repository or view on Dropbox.
 | Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         | PASS         | PASS          |
 
 ## Validation testing 
+html
+
+css
+
+https://capture.dropbox.com/r7dabdHU5HiydNwq
