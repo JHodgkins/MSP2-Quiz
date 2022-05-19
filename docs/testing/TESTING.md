@@ -7,8 +7,7 @@ This document details how the QuizBox website and application were tested to ens
     1.2 [Returning user](#returning-user)  
     1.3 [Site owner](#site-owner)  
 2. [Testing overview](#testing-overview)  
-
-
+3. [Test results overview](#test-results-overview)  
 
 ## User stories  
 ### First time user  
@@ -99,3 +98,7 @@ All manual testing was carried out in standard browser mode to simulate a users 
 __Accessibility extensions__  
 All results from accessibility extensions were verified using manual tests and where relevant were validated using Screen Reader software.  
 
+__Screen reader software__  
+NVDA and JAWS and VoiceOver were used in some tests, this is software which I own and was run in real time and not simulated.  
+
+## Test results overview  
