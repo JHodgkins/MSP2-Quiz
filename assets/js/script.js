@@ -14,7 +14,7 @@ const gameEnd = document.getElementById("gameEnd");
 const gameEndScreen = document.getElementById("game_over");
 
 // Total question to ask through the quiz
-let totalQuestionsToAnswer = 5;
+let totalQuestionsToAnswer = 15;
 
 // Set current questions correct counter to initial value of 0
 let currentQuestionsCorrect = 0;
