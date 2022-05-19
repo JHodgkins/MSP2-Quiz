@@ -145,7 +145,7 @@ main {
   #game_load {
       margin-top: 4rem;
   }
-
+/* Tutorial used to help style choice selections, further styling has been applied. source: https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2829s */
   .choice-container {
     display: flex;
     width: 100%;
@@ -173,6 +173,7 @@ main {
     width: 100%;
     border: none;
 }
+/* end source */
 
 #progress {
     display: flex;
@@ -227,12 +228,4 @@ main {
     .intro-section h1, .intro-section h2, .intro-section p {
         text-align: left;
     }
-}
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    
-  }
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
 }
