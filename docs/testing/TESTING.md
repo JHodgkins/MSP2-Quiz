@@ -14,7 +14,7 @@ This document details how the QuizBox website and application were tested to ens
     4.3 [JS validation](#js-validation)  
 5. [Manual tests](#manual-tests)  
     5.1 [Rendering in browser & Reflow test](#rendering-in-browser--reflow-test)  
-    5.2
+    5.2 [Link testing](#link-testing)  
 
 
 ## User stories  
@@ -148,6 +148,18 @@ Desktops
 Tablet and mobile
 -  Safari - PASS  
 I found that the website and application reflowed and displayed correctly and as expected on different screen sizes and systems.  
+
+### Link testing  
+All links on the site were tested to ensure that internal links behaved correctly, and that external facing links such as social media links opened a new tab as expected.  
+A screen reader was used during these tests on PC and MAC to ensure that the Sr-Only help text classes which have been applied were announced correctly by the screen reader software.  
+an example of the code is shown below:  
+```
+<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#quizboxModal">rules
+                <span class="sr-only">(opens a modal window)</span>
+              </a>
+```  
+
+
 
 
  
