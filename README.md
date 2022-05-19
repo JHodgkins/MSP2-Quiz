@@ -44,6 +44,8 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     9.1 [Languages](#languages)  
     9.2 [Frameworks and libraries](#frameworks-and-libraries)  
     9.3 [Programs and online resources](#programs-and-online-resources)  
+10. [Deployments](#deployments)  
+
 
 
 ## Overview
@@ -303,3 +305,19 @@ A list of all technologies and software and online resources used to create the 
 -  [Am I Responsive](http://ami.responsivedesign.is/), used for generating the main README image.  
 -  [CSS Minifier](https://www.toptal.com/developers/cssminifier/), used to minify CSS.  
 
+## Deployments  
+Please find below the steps on how to Deploy, Fork and Clone.  
+### Deploying to GitHub pages  
+This milestone project was deployed to GitHub Pages using the following steps.  
+1.	Log in to GitHub and then locate the GitHub Repository
+2.	On the top menu of the Repository, code is selected in the menu at the right is the "Settings" Button, select this link on the menu.
+3.	Settings will open, scroll down the Settings page until you find the "Pages" Section.
+4.	Under "Source", select the dropdown which displays "None" and select "Main".
+5.	The page will automatically refresh.
+6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section, this will take a few minutes before the link shows your page.  
+
+### Forking the GitHub repository  
+
+### Cloning to Gitpod  
+
+### Making a local clone  
