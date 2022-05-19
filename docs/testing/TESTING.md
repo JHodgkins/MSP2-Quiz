@@ -104,5 +104,15 @@ NVDA and JAWS and VoiceOver were used in some tests, this is software which I ow
 ## Test results overview  
 Below is a table which shows an overview of the various tests undertaken, results of tests were stored in an Excel document for functionality and accessibility reasons, the excel document contains 3 sheets of tests.  
 Please find the issues.xlsx file on the GitHub repository or view on Dropbox.  
+ 
+| Test             | Homepage | Game landing page | Game |
+|------------------|----------|-------------------|------|
+| HTML Validation  | PASS     | Pass              | PASS | 
+| CSS Validation   | PASS     | N/A               | N/AS | 
+| JDhint           | PASS     | PASS              | PASS | 
+| Links            | PASS     | PASS              | PASS | 
+| Landmark / Regio | PASS     | PASS              | PASS |
+| Screen reader    | PASS     | PASS              | PASS |
+| Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         | PASS         | PASS          |
 
-
+## Validation testing 
