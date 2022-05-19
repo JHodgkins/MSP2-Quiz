@@ -75,7 +75,7 @@
                 <div class="form-floating mb-3">
                   <input type="email" class="form-control" name="friendsemail" id="friendsemail"
                     placeholder="friendsname@example.com" required><span></span>
-                  <label for="friend-email">Email address</label>
+                  <label for="friendsemail">Email address</label>
                 </div>
                 <button type="submit" id="inviteButton" class="btn btn-outline-dark">Send invite</button>
               </form>
@@ -153,9 +153,9 @@
   <!-- Load Font Awesome icon kit for icons -->
   <script src="https://kit.fontawesome.com/1a728906ad.js" crossorigin="anonymous"></script>
   <!-- load emailJS scrip and key -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
-  <script type="text/javascript">
+  <script>
     (function () {
       emailjs.init("j5LykOQnyGNc9mNb5");
     })();
