@@ -93,3 +93,9 @@ Sharing will enable new people to visit the game and QuizBox can  be a source fo
 __Automated testing__  
 Automated tests were carried out using the browser incognito mode to eliminate extension conflicts or false positives or errors due to the extension requests.  
 
+__Manual testing__  
+All manual testing was carried out in standard browser mode to simulate a users experience of the website and application.  
+
+__Accessibility extensions__  
+All results from accessibility extensions were verified using manual tests and where relevant were validated using Screen Reader software.  
+
