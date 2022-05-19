@@ -15,7 +15,8 @@ This document details how the QuizBox website and application were tested to ens
 5. [Manual tests](#manual-tests)  
     5.1 [Rendering in browser & Reflow test](#rendering-in-browser--reflow-test)  
     5.2 [Link testing](#link-testing)  
-    5.3 
+    5.3 [Tab order test](#tab-order-test)  
+    5.4 
 
 
 ## User stories  
@@ -139,6 +140,7 @@ Please find the issues.xlsx file on the GitHub repository or view on Dropbox.
 
 ### JS validation  
 ![JShint Validator result](testing_images/test_jshint_valadator.png)  
+Jhint was used and no major errors were detected.
 
 ## Manual testing  
 ### Rendering in browser & Reflow test  
@@ -167,5 +169,9 @@ The tab order was tested to ensure all focusable elements could receive focus fo
 No issues were found. Example below:  
 ![Tab order test](testing_images/test_tab_order_game_landing.png)  
 
+### Landmark test  
+Screen reader users can use landmarks to highlight sections on the page or application.  
+These landmarks have been implemented using HTML5 semantic markup and where appropriate such as tab able items, ARIA has been used.  
+![Landmark test](testing_images/test_landmarks.png)  
 
  
