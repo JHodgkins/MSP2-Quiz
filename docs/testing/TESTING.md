@@ -102,3 +102,7 @@ __Screen reader software__
 NVDA and JAWS and VoiceOver were used in some tests, this is software which I own and was run in real time and not simulated.  
 
 ## Test results overview  
+Below is a table which shows an overview of the various tests undertaken, results of tests were stored in an Excel document for functionality and accessibility reasons, the excel document contains 3 sheets of tests.  
+Please find the issues.xlsx file on the GitHub repository or view on Dropbox.  
+
+
