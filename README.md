@@ -52,7 +52,7 @@ QuizBox is a questions and answers quiz based interactive game which encourages 
     11.1 [Code snippets and tutorials](#code-snippets-and-tutorials)  
     11.2 [Images and icons](#images-and-icons)  
     11.3 [Content](#content)  
-    
+12. [Acknowledgments](#acknowledgments)  
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
@@ -358,3 +358,6 @@ Forking a GitHub Repository will make a copy of the original repository on your 
 ### Content  
 QuizBox questions were a multitude of questions made by myself and from other resources, these include [Quiz book for kids](https://www.amazon.co.uk/Quiz-Clever-Buster-Brain-Games/dp/1780553145) and [funquizzes](https://www.funquizzes.uk/kids).  
 
+## Acknowledgments  
+Thank you to my Tutor Philip Morris, my wife Jeanmarie and my children for allowing me the spare time to take on these new challenges and for believing in me.  
+Everyone at Code Institute and Harlow College for all their help and support.  
