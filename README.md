@@ -1,6 +1,7 @@
-# QuizBox an interactive quiz game
-QuizBox is a questions and answers quiz based interactive game which encourages children from late primary school age through to secondary school age to answer questions to help them improve their general knowledge broadly.
-Developer: James Hodgkins  
+# QuizBox an interactive quiz game  
+![Site image](docs/images/cover_image.png)  
+QuizBox is a questions and answers quiz based interactive game which encourages children from late primary school age through to secondary school age to answer questions to help them improve their general knowledge broadly.  
+[Live site](https://jhodgkins.github.io/MSP2-Quiz/)  
 
 ## Table of contents
 1. [Overview](#overview)
@@ -38,7 +39,7 @@ Developer: James Hodgkins
 7. [Features](#features)  
     7.1 [Existing features](#existing-features)  
     7.2 [Features to be implimented in future releases](#features-to-be-implimented-in-future-releases)  
-
+8. [Testing](#testing)  
 
 ## Overview
 The QuizBox web application is a question and multiple-choice answer quiz presented in an easy and intuitive way which can be understood and used by late primary to senior school aged children.  
