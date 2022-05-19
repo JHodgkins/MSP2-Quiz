@@ -16,7 +16,9 @@ This document details how the QuizBox website and application were tested to ens
     5.1 [Rendering in browser & Reflow test](#rendering-in-browser--reflow-test)  
     5.2 [Link testing](#link-testing)  
     5.3 [Tab order test](#tab-order-test)  
-    5.4 
+    5.4 [Landmark test](#landmark-test)  
+    5.5 [Screen reader test](#screen-reader-test)  
+
 
 
 ## User stories  
@@ -119,9 +121,9 @@ Please find the issues.xlsx file on the GitHub repository or view on Dropbox.
 |------------------|----------|-------------------|------|
 | HTML Validation  | PASS     | Pass              | PASS | 
 | CSS Validation   | PASS     | N/A               | N/AS | 
-| JDhint           | PASS     | PASS              | PASS | 
+| JShint           | PASS     | PASS              | PASS | 
 | Links            | PASS     | PASS              | PASS | 
-| Landmark / Regio | PASS     | PASS              | PASS |
+| Landmark Regions | PASS     | PASS              | PASS |
 | Screen reader    | PASS     | PASS              | PASS |
 | Lighthoise - <br>Performance,<br>Accessibility,<br>Best practice,<br>SEO | PASS         | PASS         | PASS          |
 
@@ -174,4 +176,7 @@ Screen reader users can use landmarks to highlight sections on the page or appli
 These landmarks have been implemented using HTML5 semantic markup and where appropriate such as tab able items, ARIA has been used.  
 ![Landmark test](testing_images/test_landmarks.png)  
 
- 
+ ### Screen reader test  
+ All pages of the application behaved as expected and no keyboard traps or block points were found.  
+Devices used: Windows 10 using NVDA 2022 and JAWS 2022, Mac using VoiceOver for Mac and iPhone X using VoiceOver.  
+
