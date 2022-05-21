@@ -1,5 +1,5 @@
 // select game elements
-const startGame = document.getElementById("start_game");
+const startGame = document.getElementById("startGame");
 const intro = document.getElementById("intro");
 const gameLoad = document.getElementById("gameLoad");
 const playBtn = document.getElementById("play");
@@ -11,7 +11,7 @@ const questionChoiceD = document.getElementById("D");
 const gameProgress = document.getElementById("progress");
 const gameStreak = document.getElementById("streak");
 const gameEnd = document.getElementById("gameEnd");
-const gameEndScreen = document.getElementById("game_over");
+const gameEndScreen = document.getElementById("gameOver");
 
 // Total question to ask through the quiz
 let totalQuestionsToAnswer = 15;
@@ -76,7 +76,8 @@ function checkSelectedAnswer(choice) {
         incrementQuestionsCorrect();
         currentQuestionsCorrect++;
         streak++;
-        longestStreak = streak;
+        totalStreak(streak, longestStreak);
+        //longestStreak = streak;
         gameStreak.innerText = streak;
         gamePoints += bonus;
         streakAward();
@@ -111,6 +112,14 @@ function incrementQuestionsCorrect(){
     let currentQuestionsCorrect = parseInt(document.getElementById('score').innerText);
     document.getElementById('score').innerText = ++currentQuestionsCorrect;
     return currentQuestionsCorrect; 
+}
+
+// Store longest streak and update longest streak for end game result
+function totalStreak(streak) {
+    if (streak >= longestStreak) {
+        //streak++;
+        longestStreak = streak;
+    }
 }
 
 // Alert user when a certain streak count is reached
