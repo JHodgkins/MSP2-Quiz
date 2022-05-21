@@ -67,7 +67,7 @@ let questions = [
         question: "Which fairy tale character slept for 100 years?",
         choiceA: "Cinderella",
         choiceB: "Snow White",
-        choiceC: "Sleeping Beauty ",
+        choiceC: "Sleeping Beauty",
         choiceD: "Princess Tiana",
         correct: "C"
     },
@@ -152,12 +152,36 @@ let questions = [
         correct: "D"
     },
     {
+        question: "What is the hardest natural mineral on Earth?",
+        choiceA: "Ruby",
+        choiceB: "Obsidian",
+        choiceC: "Granite",
+        choiceD: "Diamond",
+        correct: "D"
+    },
+    {
         question: "What is the worlds biggest hot desert?",
         choiceA: "Gobi",
         choiceB: "Sahara",
         choiceC: "Arabian",
         choiceD: "Kalahari",
         correct: "B"
+    },
+    {
+        question: "What capital city has the largest population?",
+        choiceA: "Beijing, China",
+        choiceB: "Cairo, Egypt",
+        choiceC: "Madrid, Spain",
+        choiceD: "London, England ",
+        correct: "A"
+    },
+    {
+        question: "Which of these was invented by Benjamin Franklin?",
+        choiceA: "The Telephone",
+        choiceB: "The compass",
+        choiceC: "Bifocals",
+        choiceD: "Bunsen burner",
+        correct: "C"
     }
-
+    
 ];
