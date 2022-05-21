@@ -78,7 +78,7 @@ main {
 /* Section 1 */
 .intro-section h1, .intro-section h2 {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 .intro-section p{
@@ -142,7 +142,7 @@ main {
 
   /* 7. Game questions screen */
 
-  #game_load {
+  #gameLoad {
       margin-top: 4rem;
   }
 /* Tutorial used to help style choice selections, further styling has been applied. source: https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=2829s */
