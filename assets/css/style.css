@@ -13,7 +13,8 @@
 7. Game questions screen
 8. End game screen
 9. Footer
-10. Media queries
+10. 404 page not found
+11. Media queries
 
 /* 1. Color scheme values */
 :root { 
@@ -201,7 +202,6 @@ main {
     font-weight: 500;
 }
 
-
   /* 9. Footer */
   footer .home-footer {
       height: 100px;
@@ -222,10 +222,32 @@ main {
       color: var(--black);
   }
 
-/* 10. Media queries */
+  /* 10. 404 page not found */
+
+#page404 {
+      display: block;
+  }
+.page-not-found-section h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+.page-not-found-section p{
+    text-align: center;
+}
+.go-home-small {
+    background-color: var(--white);
+    outline: 2px solid var(--purple);
+}
+.go-home-small:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+/* 11. Media queries */
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .intro-section h1, .intro-section h2, .intro-section p {
+    .intro-section h1, .intro-section h2, .intro-section p, .page-not-found-section h1, .page-not-found-section p {
         text-align: left;
     }
 }
